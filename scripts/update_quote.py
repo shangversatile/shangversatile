@@ -13,7 +13,7 @@ README_PATH = Path("README.md")
 START_MARKER = "<!-- DAILY-QUOTE-START -->"
 END_MARKER = "<!-- DAILY-QUOTE-END -->"
 
-API_BASE = "https://api.quotable.io"
+API_BASE = "https://api.quotable.io/random?tags=philosophy|science|famous-quotes"
 
 # 你可以把这里改成更偏“哲学 / 物理”的关键词
 SEARCH_TERMS = [
