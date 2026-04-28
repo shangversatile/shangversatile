@@ -5,7 +5,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **Loading today's quote...**
+> **“The important thing is not to stop questioning.”**
+> — Albert Einstein
+> _source: local-fallback_
 <!-- DAILY-QUOTE-END -->
 
 Bridging data, causality, and reasoning in modern AI systems.
