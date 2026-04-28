@@ -14,6 +14,7 @@ Bridging data, causality, and reasoning in modern AI systems.
 
 > **"From black-box models to interpretable intelligence."**  
 > Bridging data, causality, and reasoning in modern AI systems.
+> 
 > **"Nature operates through the principle of least action —  
 > intelligence, perhaps, should too."**
 
