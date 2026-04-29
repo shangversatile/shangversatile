@@ -1,5 +1,8 @@
 name: Daily Quote Update
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: "0 16 * * *"   # 每天加州时间早上9点（UTC 16点）
