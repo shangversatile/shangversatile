@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Don't live the same year 75 times and call it a life.”**
-> — Robin Sharma
+> **“Today you are you, that is truer than true. There is no one alive who is you-er than you.”**
+> — Dr. Seuss
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
