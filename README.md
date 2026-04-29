@@ -7,7 +7,7 @@
 <!-- DAILY-QUOTE-START -->
 > **“The important thing is not to stop questioning.”**
 > — Albert Einstein
-> _source: local-fallback_
+> _source: fallback_
 <!-- DAILY-QUOTE-END -->
 
 Bridging data, causality, and reasoning in modern AI systems.
