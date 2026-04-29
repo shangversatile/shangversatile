@@ -14,7 +14,7 @@ START_MARKER = "<!-- DAILY-QUOTE-START -->"
 END_MARKER = "<!-- DAILY-QUOTE-END -->"
 
 # ✅ 修复：API_BASE 只保留域名
-API_BASE = "https://api.quotable.io"
+API_BASE = "https://zenquotes.io/api/random"
 
 SEARCH_TERMS = [
     "physics",
@@ -44,23 +44,24 @@ def normalize_text(text: str) -> str:
 
 
 def pick_quote() -> tuple[str, str, str]:
-    # ✅ 1. 按关键词搜索
-    for term in SEARCH_TERMS:
-        url = f"{API_BASE}/search/quotes?query={urllib.parse.quote(term)}&limit=20"
-        try:
-            data = fetch_json(url)
-        except Exception as e:
-            print(f"[WARN] search failed for {term}: {e}")
-            continue
+    # ✅ 使用 ZenQuotes（更稳定）
+    try:
+        data = fetch_json("https://zenquotes.io/api/random")
+        if isinstance(data, list) and len(data) > 0:
+            item = data[0]
+            content = item.get("q")
+            author = item.get("a")
+            if content and author:
+                return normalize_text(content), normalize_text(author), "zenquotes"
+    except Exception as e:
+        print(f"[WARN] ZenQuotes failed: {e}")
 
-        if isinstance(data, dict):
-            results = data.get("results") or []
-            if results:
-                item = random.choice(results)
-                content = item.get("content")
-                author = item.get("author")
-                if content and author:
-                    return normalize_text(content), normalize_text(author), term
+    # ✅ fallback（保证有内容）
+    return (
+        "The important thing is not to stop questioning.",
+        "Albert Einstein",
+        "fallback",
+    )
 
     # ✅ 2. 随机兜底（正确接口）
     try:
