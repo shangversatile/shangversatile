@@ -2,7 +2,7 @@ name: Daily Quote Update
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # UTC, 每天一次；按你的时区可自行改
+    - cron: "0 16 * * *"   # 每天加州时间早上9点（UTC 16点）
   workflow_dispatch:
 
 permissions:
@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Update README quote
         run: python scripts/update_quote.py
 
@@ -28,6 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           if [[ -n "$(git status --porcelain)" ]]; then
             git add README.md
             git commit -m "chore: update daily quote"
