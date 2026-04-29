@@ -5,9 +5,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The important thing is not to stop questioning.”**
-> — Albert Einstein
-> _source: fallback_
+> **“Don't live the same year 75 times and call it a life.”**
+> — Robin Sharma
+> _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
 Bridging data, causality, and reasoning in modern AI systems.
