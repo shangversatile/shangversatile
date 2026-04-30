@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Today you are you, that is truer than true. There is no one alive who is you-er than you.”**
-> — Dr. Seuss
+> **“We all give up great expectations along the way.”**
+> — Carlos Ruiz Zafon
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
