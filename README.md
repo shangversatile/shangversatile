@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“We all give up great expectations along the way.”**
-> — Carlos Ruiz Zafon
+> **“The enemy is a very good teacher.”**
+> — Dalai Lama
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
