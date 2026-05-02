@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The enemy is a very good teacher.”**
-> — Dalai Lama
+> **“It is easy to discover what another has discovered before.”**
+> — Christopher Columbus
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
