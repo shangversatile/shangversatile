@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It is easy to discover what another has discovered before.”**
-> — Christopher Columbus
+> **“One loses many laughs by not laughing at oneself.”**
+> — Mary Engelbreit
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
