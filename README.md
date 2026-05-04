@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“One loses many laughs by not laughing at oneself.”**
-> — Mary Engelbreit
+> **“Only when I fall do I get up again.”**
+> — Vincent van Gogh
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
