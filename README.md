@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Only when I fall do I get up again.”**
-> — Vincent van Gogh
+> **“Happiness is the spiritual experience of living every minute with love, grace and gratitude.”**
+> — Denis Waitley
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
