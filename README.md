@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Happiness is the spiritual experience of living every minute with love, grace and gratitude.”**
-> — Denis Waitley
+> **“If you cannot understand something, then you have understood it incorrectly.”**
+> — Kabir
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
