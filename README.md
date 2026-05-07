@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you cannot understand something, then you have understood it incorrectly.”**
-> — Kabir
+> **“The strength of a wall is neither greater nor less than the courage of the men who defend it.”**
+> — Genghis Khan
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
