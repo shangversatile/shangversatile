@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The strength of a wall is neither greater nor less than the courage of the men who defend it.”**
-> — Genghis Khan
+> **“Good entrepreneurs don't fail because they stay at it.”**
+> — Naval Ravikant
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
