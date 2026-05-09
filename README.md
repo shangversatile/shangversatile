@@ -28,7 +28,7 @@ Bridging data, causality, and reasoning in modern AI systems.
 ## 🎓 About Me
 
 - 🎓 M.S. in Data Science @ **UC San Diego (HDSI)**
-- 🔄 Background: **MIS → Machine Learning / AI**
+- 🔄 Background: **MIS → AI systems / reasoning / trustworthy intelligence**
 - 🧭 Transitioning from:
   - Model User → Model Builder → System Thinker
 
