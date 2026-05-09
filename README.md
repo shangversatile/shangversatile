@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Good entrepreneurs don't fail because they stay at it.”**
-> — Naval Ravikant
+> **“The smallest act of kindness is worth more than the greatest intention.”**
+> — Kahlil Gibran
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
