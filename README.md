@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The smallest act of kindness is worth more than the greatest intention.”**
-> — Kahlil Gibran
+> **“There is no greater agony than bearing an untold story inside you.”**
+> — Maya Angelou
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
