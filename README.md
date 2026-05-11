@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“There is no greater agony than bearing an untold story inside you.”**
-> — Maya Angelou
+> **“Happiness is not something ready made. It comes from your own actions.”**
+> — Dalai Lama
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
