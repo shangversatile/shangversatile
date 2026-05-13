@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Contemplation often makes life miserable. We should act more, think less, and stop watching ourselves live.”**
-> — Nicolas Chamfort
+> **“Worry is a waste of emotional reserve.”**
+> — Ayn Rand
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
