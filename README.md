@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The world is a puzzle; no need to make sense out of it.”**
-> — Socrates
+> **“It's the job that's never started that takes the longest to finish.”**
+> — J.R.R. Tolkien
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
