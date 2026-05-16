@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It's the job that's never started that takes the longest to finish.”**
-> — J.R.R. Tolkien
+> **“Do not bite at the bait of pleasure, till you know there is no hook beneath it.”**
+> — Thomas Jefferson
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
