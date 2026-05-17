@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Do not bite at the bait of pleasure, till you know there is no hook beneath it.”**
-> — Thomas Jefferson
+> **“Worry is a waste of emotional reserve.”**
+> — Ayn Rand
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
