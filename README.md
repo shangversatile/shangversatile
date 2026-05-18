@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Worry is a waste of emotional reserve.”**
-> — Ayn Rand
+> **“The best way to predict your future is to create it.”**
+> — Abraham Lincoln
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
