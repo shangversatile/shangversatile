@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The best way to predict your future is to create it.”**
-> — Abraham Lincoln
+> **“A man is not called wise because he talks and talks again; but if he is peaceful, loving and fearless then he is in truth called wise.”**
+> — Buddha
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
