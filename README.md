@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A man is not called wise because he talks and talks again; but if he is peaceful, loving and fearless then he is in truth called wise.”**
-> — Buddha
+> **“The only way to 'find out if it will work out' is to do it.”**
+> — Simon Sinek
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
