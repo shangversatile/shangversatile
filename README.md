@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The only way to 'find out if it will work out' is to do it.”**
-> — Simon Sinek
+> **“Positive thinking can be contagious. Being surrounded by winners helps you develop into a winner.”**
+> — Arnold Schwarzenegger
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
