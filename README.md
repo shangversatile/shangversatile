@@ -96,10 +96,10 @@ I focus on **understanding and improving how AI systems reason**, rather than ju
 
 <p align="center">
   <img height="180em"
-       src="https://github-readme-stats.vercel.app/api?username=shangversatile&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=1800" />
+       src="https://github-readme-stats-sigma-five.vercel.app/api?username=shangversatile&show_icons=true&theme=tokyonight" />
 
   <img height="180em"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=shangversatile&layout=compact&theme=tokyonight&cache_seconds=1800" />
+       src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shangversatile&layout=compact&theme=tokyonight" />
 </p>
 
 ---
