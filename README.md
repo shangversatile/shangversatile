@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Positive thinking can be contagious. Being surrounded by winners helps you develop into a winner.”**
-> — Arnold Schwarzenegger
+> **“The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one.”**
+> — Mark Twain
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
