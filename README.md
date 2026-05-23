@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one.”**
-> — Mark Twain
+> **“It's the unknown we fear when we look upon death and darkness, nothing more.”**
+> — Albus Dumbledore
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
