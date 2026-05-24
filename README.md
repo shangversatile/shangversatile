@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It's the unknown we fear when we look upon death and darkness, nothing more.”**  
-> — Albus Dumbledore  
+> **“Don't let the fear of losing be greater than the excitement of winning.”**
+> — Robert Kiyosaki
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
