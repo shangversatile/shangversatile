@@ -3,17 +3,17 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=shangversatile&label=Profile%20Views&color=FF69B4&style=flat" />
 </p>
-
-I am interested in **Trustworthy AI Systems**, especially **evaluation, monitoring, uncertainty, causal reliability, and interpretability of ML/LLM systems under distribution shift**.
-
-My current work explores how AI systems fail in real-world environments, and how we can build more **reliable, auditable, and scientifically grounded** models and infrastructure. **"From black-box models to reliable and interpretable intelligence."**
-
 <!-- DAILY-QUOTE-START -->
 > **“It's the unknown we fear when we look upon death and darkness, nothing more.”**
 > — Albus Dumbledore  
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 >
+I am interested in **Trustworthy AI Systems**, especially **evaluation, monitoring, uncertainty, causal reliability, and interpretability of ML/LLM systems under distribution shift**.
+
+My current work explores how AI systems fail in real-world environments, and how we can build more **reliable, auditable, and scientifically grounded** models and infrastructure. **"From black-box models to reliable and interpretable intelligence."**
+
+
 > **"Nature operates through the principle of least action — > intelligence, perhaps, should too."**
 <p align="center">
   <img src="https://latex.codecogs.com/svg.image?S=\int_{t_1}^{t_2}(p\dot{q}-H(q,p,t))dt" />
