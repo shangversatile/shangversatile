@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Don't let the fear of losing be greater than the excitement of winning.”**
-> — Robert Kiyosaki
+> **“I admire those who do good and expect nothing in return.”**
+> — Roy T. Bennett
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
