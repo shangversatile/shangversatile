@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The most important thing in life is to stop saying 'I wish' and start saying 'I will'. Consider nothing impossible, then treat possibilities as probabilities.”**
-> — Charles Dickens
+> **“Success is never final; failure is never fatal.”**
+> — Conrad Hilton
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
