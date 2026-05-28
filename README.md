@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Success is never final; failure is never fatal.”**
-> — Conrad Hilton
+> **“When you judge others, you do not define them, you define yourself.”**
+> — Earl Nightingale
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
