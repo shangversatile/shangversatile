@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“When you judge others, you do not define them, you define yourself.”**
-> — Earl Nightingale
+> **“Resentment or grudges do no harm to the person against whom you hold these feelings but every day and every night of your life, they are eating at you.”**
+> — Norman Vincent Peale
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
