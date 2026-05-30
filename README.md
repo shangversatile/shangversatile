@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Resentment or grudges do no harm to the person against whom you hold these feelings but every day and every night of your life, they are eating at you.”**
-> — Norman Vincent Peale
+> **“The more acquaintances you have, the less you know them.”**
+> — Chinese Proverb
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
