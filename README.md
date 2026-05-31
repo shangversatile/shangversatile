@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The more acquaintances you have, the less you know them.”**
-> — Chinese Proverb
+> **“Invest in as much of yourself as you can, you are your own biggest asset by far.”**
+> — Warren Buffett
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
