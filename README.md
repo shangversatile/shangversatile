@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A dead thing can go with the stream, but only a living thing can go against it.”**
-> — Gilbert Chesterton
+> **“Being wrong opens us up to the possibility of change.”**
+> — Mark Manson
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
