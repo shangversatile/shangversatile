@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Being wrong opens us up to the possibility of change.”**
-> — Mark Manson
+> **“Choose a job you love, and you will never have to work a day in your life.”**
+> — Confucius
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
