@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Choose a job you love, and you will never have to work a day in your life.”**
-> — Confucius
+> **“The biggest adventure is what lies ahead.”**
+> — J.R.R. Tolkien
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
