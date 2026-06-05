@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The biggest adventure is what lies ahead.”**
-> — J.R.R. Tolkien
+> **“Conflict cannot survive without your participation.”**
+> — Wayne Dyer
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
