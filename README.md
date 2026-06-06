@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Conflict cannot survive without your participation.”**
-> — Wayne Dyer
+> **“Without education, we are in a horrible and deadly danger of taking educated people seriously.”**
+> — Gilbert Chesterton
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
