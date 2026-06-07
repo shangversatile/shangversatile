@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Without education, we are in a horrible and deadly danger of taking educated people seriously.”**
-> — Gilbert Chesterton
+> **“If you want to be successful, you have to jump, there's no way around it.”**
+> — Steve Harvey
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
