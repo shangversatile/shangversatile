@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you want to be successful, you have to jump, there's no way around it.”**
-> — Steve Harvey
+> **“You must conceive it in your heart and mind before you can receive it. If you believe then all things are possible.”**
+> — Norman Vincent Peale
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
