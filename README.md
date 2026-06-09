@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“You must conceive it in your heart and mind before you can receive it. If you believe then all things are possible.”**
-> — Norman Vincent Peale
+> **“Never do things others can do and will do if there are things others cannot do or will not do.”**
+> — Amelia Earhart
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
