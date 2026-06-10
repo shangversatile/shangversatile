@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Never do things others can do and will do if there are things others cannot do or will not do.”**
-> — Amelia Earhart
+> **“If you truly expect something to be difficult, it will be.”**
+> — Peter A. Cohen
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
