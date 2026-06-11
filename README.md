@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you truly expect something to be difficult, it will be.”**
-> — Peter A. Cohen
+> **“If you're not making mistakes, then you're not doing anything.”**
+> — John Wooden
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
