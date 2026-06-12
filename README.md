@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you're not making mistakes, then you're not doing anything.”**
-> — John Wooden
+> **“Don't let someone elses. opinion become your reality.”**
+> — Les Brown
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
