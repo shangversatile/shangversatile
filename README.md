@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Don't let someone elses. opinion become your reality.”**
-> — Les Brown
+> **“Courage is the willingness to engage in a risk-taking behavior regardless of whether the consequences are unknown or possibly adverse.”**
+> — Alfred Adler
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
