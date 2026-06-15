@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Vision is the art of seeing things invisible.”**
-> — Jonathan Swift
+> **“The greatest of empires, is the empire over one's self.”**
+> — Publilius Syrus
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
