@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The greatest of empires, is the empire over one's self.”**
-> — Publilius Syrus
+> **“If you only knew the magnificence of the 3, 6, and 9, then you would have a key to the universe.”**
+> — Nikola Tesla
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
