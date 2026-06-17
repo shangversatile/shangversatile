@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you only knew the magnificence of the 3, 6, and 9, then you would have a key to the universe.”**
-> — Nikola Tesla
+> **“Everything around us is made up of energy. To attract positive things in your life, start by giving off positive energy.”**
+> — Celestine Chua
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
