@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Everything around us is made up of energy. To attract positive things in your life, start by giving off positive energy.”**
-> — Celestine Chua
+> **“There are no shortcuts to any place worth going.”**
+> — Beverly Sills
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
