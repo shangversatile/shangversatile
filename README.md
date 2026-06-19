@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“There are no shortcuts to any place worth going.”**
-> — Beverly Sills
+> **“Knowing is not enough, we must apply. Willing is not enough, we must do.”**
+> — Bruce Lee
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
