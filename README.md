@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Knowing is not enough, we must apply. Willing is not enough, we must do.”**
-> — Bruce Lee
+> **“Why change? Everyone has his own style. When you have found it, you should stick to it.”**
+> — Audrey Hepburn
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
