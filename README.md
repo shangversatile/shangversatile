@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Why change? Everyone has his own style. When you have found it, you should stick to it.”**
-> — Audrey Hepburn
+> **“All human wisdom is contained in these two words - Wait and Hope”**
+> — Alexandre Dumas
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
