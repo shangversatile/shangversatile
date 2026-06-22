@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“All human wisdom is contained in these two words - Wait and Hope”**
-> — Alexandre Dumas
+> **“We learn to walk by falling down. If we never fell down, we would never walk.”**
+> — Robert Kiyosaki
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
