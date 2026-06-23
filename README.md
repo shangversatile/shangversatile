@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“We learn to walk by falling down. If we never fell down, we would never walk.”**
-> — Robert Kiyosaki
+> **“Whether you think you can or think you can't – you are right.”**
+> — Henry Ford
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
