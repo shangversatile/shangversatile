@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Whether you think you can or think you can't – you are right.”**
-> — Henry Ford
+> **“Little minds have little worries, big minds have no time for worries.”**
+> — Ralph Waldo Emerson
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
