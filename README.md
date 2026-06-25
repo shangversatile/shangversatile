@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Little minds have little worries, big minds have no time for worries.”**
-> — Ralph Waldo Emerson
+> **“Some people dream of success, while others wake up and work hard at it.”**
+> — Napoleon Hill
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
