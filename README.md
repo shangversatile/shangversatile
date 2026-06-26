@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Some people dream of success, while others wake up and work hard at it.”**
-> — Napoleon Hill
+> **“The greatest doer must also be a great dreamer.”**
+> — Theodore Roosevelt
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
