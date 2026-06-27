@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The greatest doer must also be a great dreamer.”**
-> — Theodore Roosevelt
+> **“Everything flows, nothing stands still.”**
+> — Heraclitus
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
