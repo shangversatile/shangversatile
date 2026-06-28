@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Everything flows, nothing stands still.”**
-> — Heraclitus
+> **“I begin with an idea and then it becomes something else.”**
+> — Pablo Picasso
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
