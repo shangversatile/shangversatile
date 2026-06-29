@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“I begin with an idea and then it becomes something else.”**
-> — Pablo Picasso
+> **“Routine life is unbearable, and most people only think about how to escape into the world of fantasy and dreams.”**
+> — Robert Greene
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
