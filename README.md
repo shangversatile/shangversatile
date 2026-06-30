@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Routine life is unbearable, and most people only think about how to escape into the world of fantasy and dreams.”**
-> — Robert Greene
+> **“Be yourself; everyone else is already taken.”**
+> — Oscar Wilde
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
