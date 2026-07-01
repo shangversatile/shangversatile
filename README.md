@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Be yourself; everyone else is already taken.”**
-> — Oscar Wilde
+> **“Words used to attract the dull of wit are not to be relied on.”**
+> — Huang Po
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
