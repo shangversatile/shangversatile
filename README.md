@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Words used to attract the dull of wit are not to be relied on.”**
-> — Huang Po
+> **“In matters of style, swim with the current; in matters of principle, stand like a rock.”**
+> — Thomas Jefferson
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
