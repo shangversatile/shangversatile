@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“In matters of style, swim with the current; in matters of principle, stand like a rock.”**
-> — Thomas Jefferson
+> **“So we beat on, boats against the current, borne back ceaselessly into the past.”**
+> — F. Scott Fitzgerald
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
