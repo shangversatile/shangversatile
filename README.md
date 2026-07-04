@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“So we beat on, boats against the current, borne back ceaselessly into the past.”**
-> — F. Scott Fitzgerald
+> **“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.”**
+> — Lao Tzu
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
