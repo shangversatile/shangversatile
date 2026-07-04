@@ -5,16 +5,18 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.”**
-> — Lao Tzu
+> **“So we beat on, boats against the current, borne back ceaselessly into the past.”**
+> — F. Scott Fitzgerald  
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
-I am interested in **Trustworthy AI Systems**, especially **evaluation, monitoring, uncertainty, causal reliability, and interpretability of ML/LLM systems under distribution shift**.
+I am interested in **Mechanism-guided Trustworthy AI Systems** — AI systems that can be understood, calibrated, monitored, intervened upon, and controlled in complex dynamic environments.
 
-My current work explores how AI systems fail in real-world environments, and how we can build more **reliable, auditable, and scientifically grounded** models and infrastructure.
+My current research direction connects **mechanism interpretability, concept representations, causal discovery, spatiotemporal graph learning, uncertainty calibration, and system-level monitoring**.
 
-**From black-box models to reliable and interpretable intelligence.**
+I study how AI models fail under distribution shift, noisy observations, incomplete data, and changing environments — and how to build models and evaluation pipelines that are more **reliable, auditable, and scientifically grounded**.
+
+**From black-box models to reliable, interpretable, and controllable intelligence.**
 
 ---
 
@@ -34,66 +36,76 @@ My current work explores how AI systems fail in real-world environments, and how
   - Model User → Model Builder → System Thinker → Reliability-oriented Researcher
 - 🛠 Currently building foundations in:
   - Machine Learning, Deep Learning, NLP
-  - Computer Systems and ML Systems
-  - Causal Inference and Trustworthy Evaluation
+  - Spatiotemporal Graph Learning and Complex Dynamic Systems
+  - Causal Discovery, Uncertainty Quantification, and Trustworthy Evaluation
+  - AI Reliability, Model Monitoring, and ML Systems
 
 ---
 
 ## 🔬 Research Focus
 
-I focus on **reliable, interpretable, and monitorable AI systems**, with an emphasis on how models behave under distribution shift, uncertainty, and real-world deployment constraints.
+I focus on **mechanism-guided trustworthy AI systems**: building AI models and evaluation pipelines that remain understandable, calibratable, monitorable, and actionable under real-world uncertainty and distribution shift.
 
-### 🛡 Trustworthy AI Systems
-- Evaluation and monitoring of ML/LLM systems under **distribution shift**
-- Reliability analysis, uncertainty estimation, calibration, and failure diagnosis
-- Building auditable AI pipelines from data → model → evaluation → monitoring
+### 🧭 Mechanism-guided Reliable Prediction
+- Spatiotemporal graph learning for complex dynamic systems
+- Mechanism discovery from time series, graphs, and sensor networks
+- Reliable forecasting under missingness, noise, regime changes, and long-horizon uncertainty
 
-### 📊 AI Evaluation & Monitoring
-- Behavioral testing, hallucination analysis, and failure mode taxonomy
-- RAG / LLM evaluation pipelines with retrieval quality, answer reliability, and drift tracking
-- Toward automatic and scalable evaluation of AI systems
+### 🔗 Causal Reliability and Mechanism Discovery
+- Causal discovery and invariant prediction under distribution shift
+- Separating stable mechanisms from spurious correlations
+- Applying causal and mechanistic thinking to environmental, traffic, energy, and scientific prediction
 
-### 🔗 Causal Reliability
-- Studying spurious correlations, causal structure, and robustness across environments
-- Connecting causal inference with trustworthy ML and scientific decision-making
+### 📏 Uncertainty, Calibration and Conformal Reliability
+- Uncertainty quantification, calibration, and predictive intervals
+- Conformal prediction under temporal shift and change points
+- Turning model confidence into decision-relevant reliability signals
 
-### 🧠 Interpretability & Mechanistic Understanding
-- From post-hoc explanations to causal analysis of model internals
-- Exploring representation analysis, probing, attention patterns, and toy transformer circuits
+### 🧠 Interpretable and Concept-based Representation
+- Representation analysis, CKA, probing, and concept stability
+- From post-hoc explanations to mechanism-level understanding
+- Evaluating whether explanations and representations survive sanity checks
 
-### 🔬 AI for Science
-- Uncertainty-aware scientific prediction
-- Reliable ML for noisy, incomplete, and shifting scientific data
+### 🛡 AI Evaluation, Monitoring and Control
+- Model monitoring under data drift, prediction drift, and calibration drift
+- RAG / LLM evaluation pipelines where reliability and failure diagnosis matter
+- Toward AI systems that can be audited, corrected, and controlled after deployment
 
 ---
 
 ## 🚧 What I'm Currently Building
 
-### 🧪 Causal-Trustworthy-AI-Lab
-Research-oriented experiments on:
-- Causal reliability under distribution shift
-- Uncertainty calibration and overconfidence detection
-- Trustworthy RAG evaluation and monitoring
-- Scientific ML with uncertainty-aware prediction
+### 🧪 Reliable-AI-Research-Lab
+Flagship research lab for:
+- reliable spatiotemporal forecasting under dynamic distribution shift
+- graph construction validation
+- uncertainty quantification and conformal calibration
+- risk-aware decision evaluation
+- mechanism-guided reliability experiments
 
-### 🧠 XAI-Project-Demo
-Exploratory projects on:
-- Classical XAI methods such as SHAP / feature importance
-- Representation analysis and probing
-- Toy mechanistic interpretability for small transformers
+### 📚 Paper-Reading-Notes
+Research-level reading system for:
+- spatiotemporal graph learning
+- uncertainty and calibration
+- conformal prediction
+- mechanism discovery and causal time-series analysis
+- interpretable representation and trustworthy evaluation
+
+### 🧠 Representation-Analysis-Lab
+Exploratory lab for:
+- concept representations
+- CKA and representation similarity
+- probing and hidden-state diagnostics
+- sanity checks for explanations and representations
 
 ### 🤖 ML-DL-NLP-Lab
 Foundation implementations from scratch:
-- Linear / logistic regression, MLP, and optimization
-- Backpropagation and training dynamics
-- Attention mechanisms and tiny transformers
+- classical ML, MLPs, optimization, and backpropagation
+- deep learning and attention mechanisms
+- tiny transformer and NLP foundations
+- mathematical intuition and implementation discipline
 
-### 📚 Paper-Reading-Notes
-Structured reading notes and research maps on:
-- Trustworthy ML and AI systems
-- LLM evaluation and RAG reliability
-- Causal ML and distribution shift
-- Mechanistic interpretability
+Earlier RAG / LLM evaluation work remains part of my broader AI reliability interest, especially when evaluation, monitoring, and failure diagnosis are central.
 
 ---
 
@@ -113,9 +125,11 @@ Structured reading notes and research maps on:
 
 ### Focus Areas
 <p>
-  <img src="https://img.shields.io/badge/NLP-4B0082?style=for-the-badge&logo=huggingface&logoColor=white" />
-  <img src="https://img.shields.io/badge/XAI-Explainable_AI-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Causal%20ML-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Trustworthy_AI-191970?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Spatiotemporal_GNN-4B0082?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Causal_Discovery-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Uncertainty_Calibration-006400?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Model_Monitoring-2F4F4F?style=for-the-badge" />
 </p>
 
 ---
@@ -135,10 +149,11 @@ Structured reading notes and research maps on:
 ## 🧠 Intellectual Interests
 
 | Domain | Focus |
-|------|------|
-| 🧠 AI | Interpretability, Causality, Robustness |
-| 🔬 Science | Physics-inspired modeling & system thinking |
-| 📖 Humanities | Philosophy of epistemology, pragmatism, causality, interpretability |
+|---|---|
+| 🧠 AI | Mechanism-guided trustworthy AI, reliability, interpretability, causality |
+| 🔬 Science | Complex dynamic systems, uncertainty-aware prediction, physics-inspired modeling |
+| 🛠 Systems | Evaluation pipelines, monitoring, ML systems for reliable deployment |
+| 📖 Humanities | Epistemology, pragmatism, causality, interpretability |
 
 ---
 
@@ -146,22 +161,28 @@ Structured reading notes and research maps on:
 
 | Project | Direction | Core Question |
 |---|---|---|
-| **Trustworthy RAG Evaluation & Monitoring** | LLM Evaluation / AI Systems | How do RAG systems fail under retrieval shift, and how can we monitor these failures? |
-| **Causal Reliability under Distribution Shift** | Causal ML / Trustworthy AI | When do models rely on spurious correlations, and how can causal structure improve reliability? |
-| **Uncertainty-aware Scientific ML** | AI for Science | Can uncertainty estimates support reliable scientific prediction and downstream decision-making? |
-| **Toy Mechanistic Interpretability for Tiny Transformers** | Interpretability / Mech Interp | Can small transformer circuits reveal how models learn algorithmic behavior? |
+| **Reliable Spatiotemporal Forecasting under Dynamic Shift** | STGNN / UQ / Conformal Prediction | How can forecasts remain calibrated and decision-useful when graph structure, sensors, and environments shift? |
+| **Mechanism Discovery for Complex Dynamic Systems** | Causal Discovery / Dynamic Systems | Can models recover stable mechanisms rather than exploiting unstable correlations? |
+| **Graph Construction and Reliability Validation** | Spatiotemporal Graph Learning | When is a learned or designed graph a valid representation of physical or statistical influence? |
+| **Concept and Representation Stability** | Interpretability / Representation Analysis | Do model representations encode meaningful concepts, and do they remain stable under shift? |
+| **AI Evaluation and Monitoring Pipelines** | AI Reliability / Model Monitoring | How can deployed AI systems be audited, calibrated, monitored, and corrected over time? |
+
 ---
 
 ## 💬 Let's Connect
 
 - 💡 Topics:
-  - Mechanistic Interpretability
-  - Causal Machine Learning
-  - AI Evaluation & Safety
+  - Mechanism-guided Trustworthy AI
+  - Spatiotemporal Graph Learning
+  - Uncertainty and Calibration
+  - Causal Discovery
+  - AI Evaluation and Monitoring
+  - Interpretability and Representation Analysis
 
 - 📫 Open to:
   - Research collaborations
   - ML / AI internships
+  - Applied AI reliability and evaluation projects
 
 ---
 
