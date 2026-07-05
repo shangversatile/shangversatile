@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“So we beat on, boats against the current, borne back ceaselessly into the past.”**
-> — F. Scott Fitzgerald  
+> **“Conflict cannot survive without your participation.”**
+> — Wayne Dyer
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
