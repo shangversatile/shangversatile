@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Conflict cannot survive without your participation.”**
-> — Wayne Dyer
+> **“Life is like underwear, should be changed twice a day.”**
+> — Ray Bradbury
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
