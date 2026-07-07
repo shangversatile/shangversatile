@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Life is like underwear, should be changed twice a day.”**
-> — Ray Bradbury
+> **“Whether you think you can or think you can't – you are right.”**
+> — Henry Ford
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
