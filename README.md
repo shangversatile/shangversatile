@@ -37,7 +37,7 @@ Control
 This is why I am especially interested in complex dynamic environments such as traffic, environmental systems, energy, scientific modeling, healthcare, and AI agents. These settings force AI systems to move beyond black-box prediction toward **calibration, monitoring, explanation, correction, and control**.
 
 **From black-box models to reliable, interpretable, and controllable intelligence.**
-```
+
 
 My current goal is to build AI systems where **interpretability is not only used for explanation, but also as a possible interface for calibration, correction, and control**.
 
