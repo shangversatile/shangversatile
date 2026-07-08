@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Whether you think you can or think you can't – you are right.”**
-> — Henry Ford  
+> **“A child without education is like a bird without wings.”**
+> — Tibetan Proverb
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
