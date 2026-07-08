@@ -10,28 +10,33 @@
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
-I am interested in **Mechanism-guided Trustworthy AI Systems** — AI systems that can be **understood, calibrated, monitored, intervened upon, and controlled** in complex dynamic environments.
+I am drawn to a simple but difficult question:
 
-My current research direction connects:
+> **How can AI systems remain reliable when the world changes?**
 
-- **mechanism interpretability**
-- **concept representations**
-- **causal discovery**
-- **spatiotemporal graph learning**
-- **uncertainty calibration**
-- **system-level monitoring and intervention**
+Modern AI models are becoming powerful enough to predict, reason, retrieve information, and act through tools. But in real environments, data is noisy, sensors fail, distributions shift, context becomes incomplete, and model confidence can be misleading. In these moments, accuracy alone is not enough. An AI system should also know when it is uncertain, expose why it may be failing, and allow humans or algorithms to correct its behavior before the failure becomes harmful.
 
-I see trustworthy AI as a layered problem:
+My long-term interest is **Mechanism-guided Trustworthy AI Systems** — AI systems whose reliability is grounded not only in output metrics, but also in the mechanisms, concepts, causal structures, uncertainties, and monitoring signals behind their behavior.
+
+I think about this direction through three connected levels:
 
 ```text
-1. Mechanism Layer
-   What does the model rely on internally?
+Mechanism
+  What does the model actually rely on?
+  Concepts, representations, causal structure, dynamics, or spurious shortcuts?
 
-2. Reliability Layer
-   When is the model uncertain, miscalibrated, shifted, or failing?
+Reliability
+  When does the model become unsafe to trust?
+  Uncertainty, miscalibration, distribution shift, missing data, or mechanism drift?
 
-3. Control Layer
-   How should the system respond through abstention, human review, fallback, or intervention?
+Control
+  What should the system do when risk is detected?
+  Abstain, request human review, fall back, roll back, or trigger intervention.
+```
+
+This is why I am especially interested in complex dynamic environments such as traffic, environmental systems, energy, scientific modeling, healthcare, and AI agents. These settings force AI systems to move beyond black-box prediction toward **calibration, monitoring, explanation, correction, and control**.
+
+**From black-box models to reliable, interpretable, and controllable intelligence.**
 ```
 
 My current goal is to build AI systems where **interpretability is not only used for explanation, but also as a possible interface for calibration, correction, and control**.
