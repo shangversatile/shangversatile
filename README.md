@@ -14,7 +14,13 @@ I am interested in **Mechanism-guided Trustworthy AI Systems** — AI systems th
 
 My current research direction connects **mechanism interpretability, concept representations, causal discovery, spatiotemporal graph learning, uncertainty calibration, and system-level monitoring**.
 
-I study how AI models fail under distribution shift, noisy observations, incomplete data, and changing environments — and how to build models and evaluation pipelines that are more **reliable, auditable, and scientifically grounded**.
+I study how AI models fail under distribution shift, noisy observations, incomplete data, changing environments, and fragile deployment workflows — and how to build models and evaluation pipelines that are more **reliable, auditable, controllable, and scientifically grounded**.
+
+My current view of trustworthy AI is not limited to making model outputs more explainable. I see it as a broader **control problem**:
+
+> Can an AI system detect when it is becoming unreliable, diagnose why it is failing, expose the mechanisms behind its behavior, and trigger correction, abstention, human review, fallback, or intervention before harm occurs?
+
+In this sense, interpretability is not only a visualization tool. It can become part of a **control interface**: a way to connect internal concepts, representations, uncertainty, and causal mechanisms to external system-level decisions.
 
 **From black-box models to reliable, interpretable, and controllable intelligence.**
 
@@ -39,6 +45,7 @@ I study how AI models fail under distribution shift, noisy observations, incompl
   - Spatiotemporal Graph Learning and Complex Dynamic Systems
   - Causal Discovery, Uncertainty Quantification, and Trustworthy Evaluation
   - AI Reliability, Model Monitoring, and ML Systems
+  - Signal Processing, Dynamical Systems, and Mechanism Discovery
 
 ---
 
@@ -46,146 +53,60 @@ I study how AI models fail under distribution shift, noisy observations, incompl
 
 I focus on **mechanism-guided trustworthy AI systems**: building AI models and evaluation pipelines that remain understandable, calibratable, monitorable, and actionable under real-world uncertainty and distribution shift.
 
+My long-term research question is:
+
+> **How can mechanistic understanding make AI systems more reliable, corrigible, and controllable in complex dynamic environments?**
+
+I am especially interested in systems where prediction is not enough. In domains such as traffic, environment, energy, scientific modeling, healthcare, and AI agents, models must not only produce outputs, but also expose uncertainty, reveal failure signals, support human or algorithmic intervention, and remain reliable when the environment changes.
+
 ### 🧭 Mechanism-guided Reliable Prediction
 - Spatiotemporal graph learning for complex dynamic systems
-- Mechanism discovery from time series, graphs, and sensor networks
 - Reliable forecasting under missingness, noise, regime changes, and long-horizon uncertainty
+- Moving beyond accuracy-only evaluation toward calibration, robustness, and decision usefulness
+- Understanding when models learn stable dynamic mechanisms rather than dataset-specific correlations
 
 ### 🔗 Causal Reliability and Mechanism Discovery
 - Causal discovery and invariant prediction under distribution shift
 - Separating stable mechanisms from spurious correlations
 - Applying causal and mechanistic thinking to environmental, traffic, energy, and scientific prediction
+- Studying whether learned graphs, latent states, and representations correspond to meaningful system structure
 
 ### 📏 Uncertainty, Calibration and Conformal Reliability
 - Uncertainty quantification, calibration, and predictive intervals
-- Conformal prediction under temporal shift and change points
+- Conformal prediction under temporal shift, change points, and nonstationarity
 - Turning model confidence into decision-relevant reliability signals
+- Asking when a model should predict, abstain, defer to human review, or trigger fallback
 
 ### 🧠 Interpretable and Concept-based Representation
 - Representation analysis, CKA, probing, and concept stability
 - From post-hoc explanations to mechanism-level understanding
 - Evaluating whether explanations and representations survive sanity checks
+- Exploring concept bottlenecks, sparse features, and mechanistic signals as possible interfaces for model correction and control
 
 ### 🛡 AI Evaluation, Monitoring and Control
-- Model monitoring under data drift, prediction drift, and calibration drift
+- Model monitoring under data drift, prediction drift, calibration drift, and representation drift
 - RAG / LLM evaluation pipelines where reliability and failure diagnosis matter
+- Human-in-the-loop review, audit trails, fallback mechanisms, and intervention triggers
 - Toward AI systems that can be audited, corrected, and controlled after deployment
 
 ---
 
-## 🚧 What I'm Currently Building
+## 🧩 My Current Research Framing
 
-### 🧪 Reliable-AI-Research-Lab
-Flagship research lab for:
-- reliable spatiotemporal forecasting under dynamic distribution shift
-- graph construction validation
-- uncertainty quantification and conformal calibration
-- risk-aware decision evaluation
-- mechanism-guided reliability experiments
+I currently think about trustworthy AI through three connected layers:
 
-### 📚 Paper-Reading-Notes
-Research-level reading system for:
-- spatiotemporal graph learning
-- uncertainty and calibration
-- conformal prediction
-- mechanism discovery and causal time-series analysis
-- interpretable representation and trustworthy evaluation
-
-### 🧠 Representation-Analysis-Lab
-Exploratory lab for:
-- concept representations
-- CKA and representation similarity
-- probing and hidden-state diagnostics
-- sanity checks for explanations and representations
-
-### 🤖 ML-DL-NLP-Lab
-Foundation implementations from scratch:
-- classical ML, MLPs, optimization, and backpropagation
-- deep learning and attention mechanisms
-- tiny transformer and NLP foundations
-- mathematical intuition and implementation discipline
-
-Earlier RAG / LLM evaluation work remains part of my broader AI reliability interest, especially when evaluation, monitoring, and failure diagnosis are central.
-
----
-
-## 🛠 Tech Stack
-
-### Core
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-### Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/Scikit--Learn-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-</p>
-
-### Focus Areas
-<p>
-  <img src="https://img.shields.io/badge/Trustworthy_AI-191970?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Spatiotemporal_GNN-4B0082?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Causal_Discovery-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Uncertainty_Calibration-006400?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Model_Monitoring-2F4F4F?style=for-the-badge" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em"
-       src="https://github-readme-stats-sigma-five.vercel.app/api?username=shangversatile&show_icons=true&theme=tokyonight" />
-
-  <img height="180em"
-       src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shangversatile&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-## 🧠 Intellectual Interests
-
-| Domain | Focus |
-|---|---|
-| 🧠 AI | Mechanism-guided trustworthy AI, reliability, interpretability, causality |
-| 🔬 Science | Complex dynamic systems, uncertainty-aware prediction, physics-inspired modeling |
-| 🛠 Systems | Evaluation pipelines, monitoring, ML systems for reliable deployment |
-| 📖 Humanities | Epistemology, pragmatism, causality, interpretability |
-
----
-
-## 📌 Active Research Projects
-
-| Project | Direction | Core Question |
+| Layer | Core Question | Methods / Signals |
 |---|---|---|
-| **Reliable Spatiotemporal Forecasting under Dynamic Shift** | STGNN / UQ / Conformal Prediction | How can forecasts remain calibrated and decision-useful when graph structure, sensors, and environments shift? |
-| **Mechanism Discovery for Complex Dynamic Systems** | Causal Discovery / Dynamic Systems | Can models recover stable mechanisms rather than exploiting unstable correlations? |
-| **Graph Construction and Reliability Validation** | Spatiotemporal Graph Learning | When is a learned or designed graph a valid representation of physical or statistical influence? |
-| **Concept and Representation Stability** | Interpretability / Representation Analysis | Do model representations encode meaningful concepts, and do they remain stable under shift? |
-| **AI Evaluation and Monitoring Pipelines** | AI Reliability / Model Monitoring | How can deployed AI systems be audited, calibrated, monitored, and corrected over time? |
+| **Mechanism Layer** | What internal concepts, representations, causal structures, or dynamic mechanisms does the model rely on? | Mechanistic interpretability, concept probing, causal discovery, representation analysis |
+| **Reliability Layer** | When is the model uncertain, miscalibrated, out-of-distribution, or about to fail? | Calibration, conformal prediction, uncertainty quantification, drift detection |
+| **Control Layer** | How should the system respond when risk is detected? | Abstention, human review, fallback, rollback, monitoring, audit trails |
 
----
+My goal is to connect these layers into a practical research loop:
 
-## 💬 Let's Connect
-
-- 💡 Topics:
-  - Mechanism-guided Trustworthy AI
-  - Spatiotemporal Graph Learning
-  - Uncertainty and Calibration
-  - Causal Discovery
-  - AI Evaluation and Monitoring
-  - Interpretability and Representation Analysis
-
-- 📫 Open to:
-  - Research collaborations
-  - ML / AI internships
-  - Applied AI reliability and evaluation projects
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-</p>
+```text
+Model prediction
+→ uncertainty and calibration check
+→ concept / mechanism reliability check
+→ drift and failure monitoring
+→ risk-aware intervention
+→ human review, fallback, or correction
