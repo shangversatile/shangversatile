@@ -10,36 +10,15 @@
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
-I am drawn to a simple but difficult question:
+I am interested in **Mechanism-guided Trustworthy AI Systems** — building AI systems that can be not only powerful, but also **understood, calibrated, monitored, corrected, and controlled** when they operate in changing real-world environments.
 
-> **How can AI systems remain reliable when the world changes?**
+My current work starts from a practical question:
 
-Modern AI models are becoming powerful enough to predict, reason, retrieve information, and act through tools. But in real environments, data is noisy, sensors fail, distributions shift, context becomes incomplete, and model confidence can be misleading. In these moments, accuracy alone is not enough. An AI system should also know when it is uncertain, expose why it may be failing, and allow humans or algorithms to correct its behavior before the failure becomes harmful.
+> **How can an AI system know when it is becoming unreliable — and what should happen next?**
 
-My long-term interest is **Mechanism-guided Trustworthy AI Systems** — AI systems whose reliability is grounded not only in output metrics, but also in the mechanisms, concepts, causal structures, uncertainties, and monitoring signals behind their behavior.
+I study this question through the connection between **model internals**, **uncertainty**, **causal mechanisms**, **dynamic environments**, and **system-level intervention**.
 
-I think about this direction through three connected levels:
-
-```text
-Mechanism
-  What does the model actually rely on?
-  Concepts, representations, causal structure, dynamics, or spurious shortcuts?
-
-Reliability
-  When does the model become unsafe to trust?
-  Uncertainty, miscalibration, distribution shift, missing data, or mechanism drift?
-
-Control
-  What should the system do when risk is detected?
-  Abstain, request human review, fall back, roll back, or trigger intervention.
-```
-
-This is why I am especially interested in complex dynamic environments such as traffic, environmental systems, energy, scientific modeling, healthcare, and AI agents. These settings force AI systems to move beyond black-box prediction toward **calibration, monitoring, explanation, correction, and control**.
-
-**From black-box models to reliable, interpretable, and controllable intelligence.**
-
-
-My current goal is to build AI systems where **interpretability is not only used for explanation, but also as a possible interface for calibration, correction, and control**.
+My near-term focus is to build reliability pipelines for AI models under distribution shift, noisy observations, incomplete data, and fragile deployment workflows. My long-term goal is broader: to understand how AI systems can move from black-box prediction toward **mechanism-grounded, corrigible, and controllable intelligence**.
 
 **From black-box models to reliable, interpretable, and controllable intelligence.**
 
@@ -67,6 +46,38 @@ My current goal is to build AI systems where **interpretability is not only used
   - Signal Processing, Dynamical Systems, and Mechanism Discovery
 
 ---
+
+## 🧭 Long-term Research Map
+
+I currently think about trustworthy AI through four connected research paths.
+
+| Path | Core Idea | My View |
+|---|---|---|
+| **Agentic AI** | Give language models a body through tools, memory, planning, and interaction. | This is an important application frontier, but not my only research identity. I am more interested in how agentic systems fail, how tool use should be monitored, and when human review or intervention should be triggered. |
+| **Model Mechanisms** | Open and repair the model body: representations, circuits, concepts, world models, and causal structure. | This is the depth layer of my long-term interest. I want to understand whether internal representations can support correction, steering, and reliable behavior rather than remaining opaque high-dimensional artifacts. |
+| **External Control Harness** | Keep AI systems inside evaluation, monitoring, guardrail, audit, fallback, and human-in-the-loop control loops. | This is my near-term anchor. Before fully understanding every internal mechanism, we can still build systems that detect risk, expose failure signals, abstain, defer, or roll back. |
+| **Human and Scientific Understanding** | Study how human concepts, machine representations, and world mechanisms can align. | This is the philosophical and scientific motivation behind my interest in interpretability. I care about when an explanation is not just plausible, but connected to stable, human-understandable, and scientifically meaningful structure. |
+
+My current strategy is:
+
+```text
+near-term anchor: external reliability harness and monitoring
+research depth: model mechanisms, concepts, and causal structure
+application frontier: agentic AI and scientific AI systems
+long-term foundation: human concepts, machine representations, and world mechanisms
+```
+
+In this view, interpretability is not only about explaining a model after it makes a prediction. It can also become part of a broader control interface:
+
+```text
+model behavior
+→ uncertainty and calibration
+→ mechanism / concept signals
+→ failure detection
+→ human review, fallback, correction, or intervention
+```
+
+This is the direction I am gradually building toward: **AI systems whose reliability is grounded in both internal mechanisms and external control loops**.
 
 ## 🔬 Research Focus
 
