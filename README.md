@@ -34,6 +34,7 @@ My near-term focus is to build reliability pipelines for AI models under distrib
 </p>
 ---
 
+
 > **“Nature operates through the principle of least action — intelligence, perhaps, should too.”**
 
 <p align="center">
