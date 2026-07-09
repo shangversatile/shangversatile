@@ -32,8 +32,9 @@ My near-term focus is to build reliability pipelines for AI models under distrib
 <p align="center">
   <em>Not a linear ladder, but a spiral: each turn deepens understanding and strengthens control.</em>
 </p>
----
 
+
+---
 
 > **“Nature operates through the principle of least action — intelligence, perhaps, should too.”**
 
