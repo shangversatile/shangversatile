@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A child without education is like a bird without wings.”**
-> — Tibetan Proverb
+> **“Normal is the average of deviance.”**
+> — Rita Mae Brown
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
