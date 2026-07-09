@@ -24,6 +24,20 @@ My near-term focus is to build reliability pipelines for AI models under distrib
 
 ---
 
+---
+
+<p align="center">
+  <img src="./spiral-research-roadmap.png"
+       alt="Spiral Research Roadmap for Mechanism-guided Trustworthy AI Systems"
+       width="850" />
+</p>
+
+<p align="center">
+  <em>Not a linear ladder, but a spiral: each turn deepens understanding and strengthens control.</em>
+</p>
+
+---
+
 > **“Nature operates through the principle of least action — intelligence, perhaps, should too.”**
 
 <p align="center">
