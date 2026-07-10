@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Normal is the average of deviance.”**
-> — Rita Mae Brown
+> **“What gets measured gets improved.”**
+> — Robin Sharma
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
