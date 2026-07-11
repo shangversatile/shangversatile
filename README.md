@@ -5,7 +5,7 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“What gets measured gets improved.”**
+> **“Investing in yourself is the best investment you will ever make.”**
 > — Robin Sharma
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
