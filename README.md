@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Investing in yourself is the best investment you will ever make.”**
-> — Robin Sharma
+> **“Well done is better than well said.”**
+> — Benjamin Franklin
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
