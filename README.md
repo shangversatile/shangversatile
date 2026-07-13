@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Well done is better than well said.”**
-> — Benjamin Franklin
+> **“Don't let them drag you down by rumors. Just go with what you believe in.”**
+> — Michael Jordan
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
