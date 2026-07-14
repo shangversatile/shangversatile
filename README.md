@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Don't let them drag you down by rumors. Just go with what you believe in.”**
-> — Michael Jordan
+> **“Fear is what stops you. Courage is what keeps you going.”**
+> — Unknown
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
