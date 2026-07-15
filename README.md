@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Fear is what stops you. Courage is what keeps you going.”**
-> — Unknown
+> **“It's necessary to get the losers out of your life if you want to live your dream.”**
+> — Les Brown
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
