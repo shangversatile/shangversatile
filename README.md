@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It's necessary to get the losers out of your life if you want to live your dream.”**
-> — Les Brown
+> **“The world is a puzzle; no need to make sense out of it.”**
+> — Socrates
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
