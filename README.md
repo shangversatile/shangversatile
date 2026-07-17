@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The world is a puzzle; no need to make sense out of it.”**
-> — Socrates
+> **“The scariest moment is always just before you start. After that, things can only get better.”**
+> — Stephen King
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
