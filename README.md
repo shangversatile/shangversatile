@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The scariest moment is always just before you start. After that, things can only get better.”**
-> — Stephen King
+> **“Not engaging in ignorance is wisdom.”**
+> — Bodhidharma
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
