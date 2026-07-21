@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A loving heart is the truest wisdom.”**
-> — Charles Dickens
+> **“Go confidently in the direction of your dreams. Live the life you've imagined.”**
+> — Arnold Schwarzenegger
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
