@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Go confidently in the direction of your dreams. Live the life you've imagined.”**
-> — Arnold Schwarzenegger
+> **“I am thankful to all those who said no. It's because of them, I did it myself.”**
+> — Wayne Dyer
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
