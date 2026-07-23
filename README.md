@@ -5,8 +5,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“I am thankful to all those who said no. It's because of them, I did it myself.”**
-> — Wayne Dyer
+> **“The soul is neither born, and nor does it die.”**
+> — Bhagavad Gita
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
