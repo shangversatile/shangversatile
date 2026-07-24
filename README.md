@@ -6,33 +6,39 @@
 
 <!-- DAILY-QUOTE-START -->
 > **“The soul is neither born, and nor does it die.”**
-> — Bhagavad Gita
+> — Bhagavad Gita  
 > _source: zenquotes_
 <!-- DAILY-QUOTE-END -->
 
-I am interested in **Mechanism-guided Trustworthy AI Systems** — building AI systems that can be not only powerful, but also **understood, calibrated, monitored, corrected, and controlled** when they operate in changing real-world environments.
+I am interested in how intelligent systems form, preserve, and revise their internal representations of the world.
 
-My current work starts from a practical question:
+My research began with a practical problem:
 
-> **How can an AI system know when it is becoming unreliable — and what should happen next?**
+> **What happens when an AI model encounters a world different from the one on which it was trained?**
 
-I study this question through the connection between **model internals**, **uncertainty**, **causal mechanisms**, **dynamic environments**, and **system-level intervention**.
+In spatiotemporal forecasting and other dynamic prediction tasks, noise, missing observations, structural changes, and distribution shifts can quickly expose the limits of a learned model. Studying these failures led me from reliability questions toward a deeper problem:
 
-My near-term focus is to build reliability pipelines for AI models under distribution shift, noisy observations, incomplete data, and fragile deployment workflows. My long-term goal is broader: to understand how AI systems can move from black-box prediction toward **mechanism-grounded, corrigible, and controllable intelligence**.
+> **When new experience arrives, what should a model preserve, what should it revise, and what new structure should it create?**
 
-**From black-box models to reliable, interpretable, and controllable intelligence.**
+My current direction is **Continual Structured Representation Learning** — studying how learning systems can retain shared structure across environments, absorb genuinely new knowledge, and reorganize inadequate representations without simply overwriting the past.
+
+In the long term, I hope to understand how machines can move from task-specific pattern fitting toward adaptive internal models of states, mechanisms, environments, and change.
+
+**From reliable prediction to continually evolving representations of the world.**
 
 ---
+
 <p align="center">
   <img src="./spiral-research-roadmap.png"
-       alt="Spiral Research Roadmap for Mechanism-guided Trustworthy AI Systems"
+       alt="Spiral roadmap from reliable prediction to adaptive world representation"
        width="850" />
 </p>
 
 <p align="center">
-  <em>Not a linear ladder, but a spiral: each turn deepens understanding and strengthens control.</em>
+  <em>
+    Research is not a linear ladder: each encounter with failure reveals a deeper question about learning, representation, and understanding.
+  </em>
 </p>
-
 
 ---
 
@@ -46,157 +52,414 @@ My near-term focus is to build reliability pipelines for AI models under distrib
 
 ## 🎓 About Me
 
-- 🎓 Incoming / M.S. in Data Science @ **UC San Diego, Halıcıoğlu Data Science Institute (HDSI)**
-- 🔄 Background: **Management Information Systems → Machine Learning / AI Systems / Trustworthy AI**
-- 🧭 Research-oriented transition:
-  - Model User → Model Builder → System Thinker → Reliability-oriented Researcher
-- 🛠 Currently building foundations in:
-  - Machine Learning, Deep Learning, and NLP
-  - Spatiotemporal Graph Learning and Complex Dynamic Systems
-  - Causal Discovery, Uncertainty Quantification, and Trustworthy Evaluation
-  - AI Reliability, Model Monitoring, and ML Systems
-  - Signal Processing, Dynamical Systems, and Mechanism Discovery
+- 🎓 Incoming M.S. in Data Science at **UC San Diego, Halıcıoğlu Data Science Institute**
+- 🔄 Background: **Management Information Systems → Machine Learning → Scientific and Reliable AI**
+- 🧭 Current transition:
+  - Model User → Model Builder → Representation Researcher → Scientific Thinker
+- 🛠 Building foundations in:
+  - Machine Learning, Deep Learning, and Representation Learning
+  - Probability, Optimization, Linear Algebra, and Geometry
+  - Dynamical Systems, State-space Models, and Signal Processing
+  - Continual Learning, Causal Representation, and World Models
+  - Scientific Machine Learning and Mechanism Discovery
+  - Epistemology, Philosophy of Science, and Models of Understanding
 
 ---
 
-## 🧭 Long-term Research Map
+## 🧭 Research Evolution
 
-I currently think about trustworthy AI through four connected research paths.
+My earlier work focused on **reliable AI under dynamic distribution shift**.
 
-| Path | Core Idea | My View |
+In forecasting systems, I was interested in questions such as:
+
+- What happens when observations become noisy or incomplete?
+- Why do models remain confident after their assumptions have failed?
+- Do learned graphs and latent representations reflect stable structure?
+- How can uncertainty and failure signals reveal model limitations?
+
+These questions remain important, but I now view them as the first layer of a broader research program.
+
+```text
+distribution shift
+→ exposes representation fragility
+
+catastrophic forgetting
+→ exposes interference between old and new knowledge
+
+task-specific learning
+→ exposes the partial nature of learned abstractions
+
+continual experience
+→ requires representations to be preserved, extended, or reorganized
+
+generalization
+→ tests whether a model has learned structure or only correlations
+```
+
+The deeper problem is therefore not only how to detect failure after deployment.
+
+It is:
+
+> **How should a learning system revise its internal model of the world when new experience conflicts with what it previously learned?**
+
+---
+
+## 🔬 Current Research Direction
+
+# Continual Structured Representation Learning
+
+I study how models learn and update internal representations from **non-stationary, multi-environment, and sequential experience**.
+
+The central challenge is the relationship between:
+
+```text
+stability
+  preserving useful prior knowledge
+
+plasticity
+  acquiring genuinely new knowledge
+
+structure
+  separating shared mechanisms from contextual variation
+
+revision
+  reorganizing representations when old abstractions become inadequate
+```
+
+A useful conceptual decomposition is:
+
+\[
+z_t =
+\left(
+z_t^{\mathrm{shared}},
+z_t^{\mathrm{context}},
+z_t^{\mathrm{novel}}
+\right),
+\]
+
+where:
+
+- \(z_t^{\mathrm{shared}}\) represents structure that persists across environments;
+- \(z_t^{\mathrm{context}}\) represents task-, domain-, or observation-specific factors;
+- \(z_t^{\mathrm{novel}}\) represents genuinely new information that cannot be explained by the current model.
+
+The objective is not to keep every representation unchanged. A good learning system should be able to decide:
+
+```text
+preserve
+when the world is unchanged but observations differ
+
+adapt
+when context or task requirements change
+
+expand
+when new objects, variables, or mechanisms appear
+
+reorganize
+when the old representation was fundamentally incomplete
+```
+
+---
+
+## ❓ Central Research Question
+
+> **How can a learning system preserve shared latent structure across changing environments while remaining plastic enough to discover and integrate genuinely new structure?**
+
+This question connects several areas that are often studied separately:
+
+| Area | Role in the Research Problem |
+|---|---|
+| **Continual Learning** | How can models learn sequentially without catastrophic forgetting or plasticity loss? |
+| **Representation Learning** | What information is encoded, discarded, entangled, or shared? |
+| **Distribution Shift** | Which environmental changes expose fragile or task-specific representations? |
+| **Dynamical Systems** | What internal state is sufficient to summarize the past and predict future evolution? |
+| **Causal Representation** | Which latent variables correspond to stable mechanisms rather than accidental correlations? |
+| **World Models** | How can internal representations support prediction, intervention, planning, and revision? |
+| **Scientific ML** | Can models recover effective variables, symmetries, interactions, and evolution laws from data? |
+
+These are not separate topics in my current framing. They are different views of the same problem:
+
+> **How does a model's internal representation grow with experience?**
+
+---
+
+## 🌀 From Task-specific Features to World-structured Representations
+
+A representation learned for a single objective is not necessarily a representation of the world.
+
+For a task \(T_1\), a model may learn:
+
+\[
+z^{(1)} = E_{T_1}(x),
+\]
+
+while a different objective \(T_2\) may produce:
+
+\[
+z^{(2)} = E_{T_2}(x).
+\]
+
+Each representation may preserve only the information necessary for its own objective.
+
+My long-term interest is whether diverse tasks, environments, temporal observations, and interventions can constrain a model toward a more shared internal structure:
+
+\[
+x
+\longrightarrow
+z_{\mathrm{shared}}
+\longrightarrow
+\begin{cases}
+\text{prediction}\\
+\text{classification}\\
+\text{parameter estimation}\\
+\text{intervention response}\\
+\text{control}\\
+\text{new-task transfer}
+\end{cases}
+\]
+
+However, a larger representation is not automatically a more unified representation.
+
+It may merely store unrelated task features side by side. A meaningful shared representation should instead reveal common generative factors, states, interactions, or mechanisms.
+
+This motivates a sharper question:
+
+> **When does multi-task or multi-environment learning recover common structure, and when does it merely accumulate task-specific features?**
+
+---
+
+## ⚖️ Stability, Plasticity, and Memory
+
+Memory in a learning system is not only the storage of past samples.
+
+I distinguish several computational forms of memory:
+
+| Memory Form | Possible Computational Realization |
+|---|---|
+| **Parametric memory** | Knowledge encoded in model weights |
+| **Episodic memory** | Replay buffers, retrieval systems, stored experiences |
+| **State memory** | Hidden states that summarize relevant past observations |
+| **Structural memory** | Persistent representations of objects, relations, dynamics, and mechanisms |
+
+My main interest is **structural memory**.
+
+A system should not merely remember past outputs. It should preserve what prior experience revealed about the structure of the world, while remaining capable of changing that structure when new evidence demands it.
+
+This creates the stability–plasticity problem:
+
+\[
+\text{preserve previous structure}
+\quad\leftrightarrow\quad
+\text{remain capable of revision}.
+\]
+
+Too much stability leads to rigidity.
+
+Too much plasticity leads to forgetting.
+
+A scientifically meaningful learner must determine which parts of its internal model deserve each treatment.
+
+---
+
+## 🌍 Distribution Shift as a Scientific Probe
+
+Distribution shift is not my final research identity. It is an experimental condition that reveals what a model has learned.
+
+Different shifts imply different forms of change:
+
+| Change | What May Have Changed | Desired Representation Response |
 |---|---|---|
-| **Agentic AI** | Give language models a body through tools, memory, planning, and interaction. | This is an important application frontier, but not my only research identity. I am more interested in how agentic systems fail, how tool use should be monitored, and when human review or intervention should be triggered. |
-| **Model Mechanisms** | Open and repair the model body: representations, circuits, concepts, world models, and causal structure. | This is the depth layer of my long-term interest. I want to understand whether internal representations can support correction, steering, and reliable behavior rather than remaining opaque high-dimensional artifacts. |
-| **External Control Harness** | Keep AI systems inside evaluation, monitoring, guardrail, audit, fallback, and human-in-the-loop control loops. | This is my near-term anchor. Before fully understanding every internal mechanism, we can still build systems that detect risk, expose failure signals, abstain, defer, or roll back. |
-| **Human and Scientific Understanding** | Study how human concepts, machine representations, and world mechanisms can align. | This is the philosophical and scientific motivation behind my interest in interpretability. I care about when an explanation is not just plausible, but connected to stable, human-understandable, and scientifically meaningful structure. |
+| Sensor, scanner, style, or viewpoint | Observation process | Preserve underlying state |
+| Task or label definition | Readout objective | Preserve shared structure, modify task head |
+| New object or variable | State space | Expand the representation |
+| Changed interaction or dynamics | Mechanism | Revise the structural model |
+| New combination of known factors | Composition | Generalize without relearning |
+| Contradictory evidence | Existing abstraction | Reorganize the representation |
 
-My current strategy is:
+The research question is therefore not merely:
+
+> Can the model remain accurate under shift?
+
+It is:
+
+> **Can the model distinguish superficial change, contextual change, genuinely new structure, and failure of its previous world model?**
+
+---
+
+## ⚙️ Dynamical and Physical Perspective
+
+Dynamical systems provide a mathematically controlled setting for studying representation growth.
+
+Suppose an underlying state evolves as:
+
+\[
+s_{t+1}=F(s_t,u_t),
+\]
+
+while the model observes only:
+
+\[
+x_t=G_e(s_t)+\eta_t,
+\]
+
+where \(e\) denotes the environment or observation condition.
+
+The model must infer:
+
+\[
+z_t=E(x_{\leq t}),
+\]
+
+and determine whether \(z_t\) captures:
+
+- the physical state;
+- environmental context;
+- system parameters;
+- interaction structure;
+- genuinely new dynamics.
+
+This connects machine learning to a classical scientific question:
+
+> **How can effective state variables and evolution laws be discovered from incomplete observations?**
+
+Physics provides important conceptual guidance:
 
 ```text
-near-term anchor: external reliability harness and monitoring
-research depth: model mechanisms, concepts, and causal structure
-application frontier: agentic AI and scientific AI systems
-long-term foundation: human concepts, machine representations, and world mechanisms
+microscopic observations
+→ effective variables
+→ invariants and symmetries
+→ evolution laws
+→ prediction and intervention
 ```
 
-In this view, interpretability is not only about explaining a model after it makes a prediction. It can also become part of a broader control interface:
+My interest is not simply to attach physical constraints to a neural network. It is to study whether learning systems can discover useful abstractions in a way analogous to scientific modeling.
+
+---
+
+## 🧪 Near-term Research Program
+
+My first concrete research problem is:
+
+# Continual Learning of Shared Latent Dynamics across Changing Environments
+
+The goal is to study whether a model can retain a shared latent state while sequentially encountering changes in:
+
+- observation viewpoint;
+- noise and missingness;
+- physical parameters;
+- external forces;
+- object composition;
+- governing dynamics.
+
+A controlled physical system may be used first, such as:
+
+- pendulum systems;
+- coupled oscillators;
+- Lorenz dynamics;
+- spring–mass systems;
+- interacting particles.
+
+The experimental structure is:
 
 ```text
-model behavior
-→ uncertainty and calibration
-→ mechanism / concept signals
-→ failure detection
-→ human review, fallback, correction, or intervention
+known physical system
+→ multiple observation environments
+→ sequential learning
+→ shared / context / novel representation analysis
+→ retention, adaptation, and intervention tests
 ```
 
-This is the direction I am gradually building toward: **AI systems whose reliability is grounded in both internal mechanisms and external control loops**.
+The first hypothesis is:
 
-## 🔬 Research Focus
+> **A representation that explicitly separates shared state, environmental context, and system parameters will support better continual adaptation and mechanism generalization than a single entangled latent space.**
 
-I focus on **mechanism-guided trustworthy AI systems**: models and evaluation pipelines that remain understandable, calibratable, monitorable, and actionable under real-world uncertainty and distribution shift.
+The project will examine:
 
-My long-term research question is:
-
-> **How can mechanistic understanding make AI systems more reliable, corrigible, and controllable in complex dynamic environments?**
-
-I am especially interested in AI systems where prediction alone is not enough. In domains such as traffic, environment, energy, scientific modeling, healthcare, and AI agents, models must expose uncertainty, reveal failure signals, support intervention, and remain reliable when the environment changes.
-
----
-
-### 🧭 Mechanism-guided Reliable Prediction
-
-- Spatiotemporal graph learning for complex dynamic systems
-- Reliable forecasting under missingness, noise, regime changes, and long-horizon uncertainty
-- Moving beyond accuracy-only evaluation toward calibration, robustness, and decision usefulness
-- Understanding whether models learn stable dynamic mechanisms or dataset-specific correlations
+- old-environment retention;
+- adaptation to new environments;
+- latent alignment with ground-truth states;
+- representation reorganization;
+- intervention prediction;
+- compositional generalization;
+- catastrophic forgetting;
+- long-term plasticity.
 
 ---
 
-### 🔗 Causal Reliability and Mechanism Discovery
+## 🧠 Long-term Research Framework
 
-- Causal discovery and invariant prediction under distribution shift
-- Separating stable mechanisms from spurious correlations
-- Applying causal and mechanistic thinking to environmental, traffic, energy, and scientific prediction
-- Studying whether learned graphs, latent states, and representations correspond to meaningful system structure
+My long-term direction has three connected but methodologically distinct layers.
+
+### 1. Technical Science
+
+**How do machines learn shared, structured, and revisable representations?**
+
+Methods:
+
+- mathematical modeling;
+- controlled experiments;
+- representation analysis;
+- continual learning;
+- causal and dynamical inference;
+- identifiability analysis.
+
+### 2. Human and Machine Cognition
+
+**How do humans and machines form concepts, memories, abstractions, and internal models?**
+
+Questions:
+
+- Is memory storage or reconstruction?
+- Are representations inherently task-relative?
+- How are concepts reorganized after contradictory experience?
+- What distinguishes prediction from understanding?
+
+This is currently an intellectual and interdisciplinary research interest rather than a claim that machine learning alone can answer cognitive science.
+
+### 3. Epistemology, Agency, and Responsibility
+
+**What allows a system to count as understanding, acting, or being responsible?**
+
+Questions concerning AI responsibility, accountability, agency, and human oversight require their own methods from:
+
+- philosophy of action;
+- epistemology;
+- ethics;
+- law;
+- human–computer interaction;
+- science and technology studies.
+
+These questions motivate my broader thinking, but I do not treat them as consequences that can be derived directly from representation-learning experiments.
 
 ---
 
-### 📏 Uncertainty, Calibration, and Conformal Reliability
+## 🧭 Long-term Vision
 
-- Uncertainty quantification, calibration, and predictive intervals
-- Conformal prediction under temporal shift, change points, and nonstationarity
-- Turning model confidence into decision-relevant reliability signals
-- Asking when a model should predict, abstain, defer to human review, or trigger fallback
+My broader goal is to study **Adaptive World Representation**:
 
----
+> How can an intelligent system form an internal model from experience, preserve what remains valid, revise what fails, and expand its conceptual structure when it encounters genuinely new phenomena?
 
-### 🧠 Interpretable and Concept-based Representation
-
-- Representation analysis, CKA, probing, and concept stability
-- From post-hoc explanations to mechanism-level understanding
-- Evaluating whether explanations and representations survive sanity checks
-- Exploring concept bottlenecks, sparse features, and mechanistic signals as possible interfaces for model correction and control
-
----
-
-### 🛡 AI Evaluation, Monitoring, and Control
-
-- Model monitoring under data drift, prediction drift, calibration drift, and representation drift
-- RAG / LLM evaluation pipelines where reliability and failure diagnosis matter
-- Human-in-the-loop review, audit trails, fallback mechanisms, and intervention triggers
-- Toward AI systems that can be audited, corrected, and controlled after deployment
-
----
-
-## 🧩 My Current Research Framing
-
-I currently organize trustworthy AI around three connected layers:
-
-| Layer | Core Question | Methods / Signals |
-|---|---|---|
-| **Mechanism Layer** | What internal concepts, representations, causal structures, or dynamic mechanisms does the model rely on? | Mechanistic interpretability, concept probing, causal discovery, representation analysis |
-| **Reliability Layer** | When is the model uncertain, miscalibrated, out-of-distribution, or about to fail? | Calibration, conformal prediction, uncertainty quantification, drift detection |
-| **Control Layer** | How should the system respond when risk is detected? | Abstention, human review, fallback, rollback, monitoring, audit trails |
-
-A practical research loop I want to build is:
+I view learning as an iterative scientific process:
 
 ```text
-Model prediction
-→ uncertainty and calibration check
-→ concept / mechanism reliability check
-→ drift and failure monitoring
-→ risk-aware intervention
-→ human review, fallback, or correction
+observe
+→ compress
+→ form structure
+→ predict
+→ encounter contradiction
+→ revise representation
+→ test under new conditions
+→ build a richer internal model
 ```
 
-This is why I am particularly interested in **dynamic distribution shift**: it forces a model to reveal whether it has learned stable mechanisms or only fragile correlations.
+This connects four long-term interests:
 
----
-
-## 🧠 Deeper Motivation
-
-I am interested in interpretability not only as a tool for explaining model outputs, but as a way to study the relationship between:
-
-```text
-world mechanisms
-→ human concepts
-→ machine representations
-→ model behavior
-→ system-level decisions
-```
-
-Human concepts and machine representations are both compressed descriptions of the world. A central challenge is to understand when high-dimensional learned representations can be aligned with stable, human-understandable, and scientifically meaningful mechanisms.
-
-This motivates my interest in:
-
-- mechanism discovery
-- causal representation learning
-- concept-based interpretability
-- scientific machine learning
-- trustworthy evaluation
-- AI systems that can be corrected and controlled after deployment
-
-I try to keep this broader question grounded in measurable reliability, concrete systems, and reproducible experiments.
+| Discipline | Inspiration |
+|---|---|
+| **Mathematics** | Identifiability, geometry, probability, optimization, invariance |
+| **Physics** | State, dynamics, symmetry, conservation, scale, effective theories |
+| **Computer Science** | Learning algorithms, memory systems, representation, continual adaptation |
+| **Philosophy** | Explanation, evidence, abstraction, understanding, and model revision |
 
 ---
 
@@ -204,39 +467,57 @@ I try to keep this broader question grounded in measurable reliability, concrete
 
 ### 🧪 Reliable-AI-Research-Lab
 
-Flagship research lab for:
+This repository began with reliable spatiotemporal forecasting under uncertainty and distribution shift.
 
-- reliable spatiotemporal forecasting under dynamic distribution shift
-- graph construction validation
-- uncertainty quantification and conformal calibration
-- risk-aware decision evaluation
-- mechanism-guided reliability experiments
-- monitoring triggers for abstention, human review, and fallback
+It now serves as the experimental origin of a broader program:
+
+```text
+reliable forecasting
+→ representation fragility
+→ shared latent structure
+→ continual adaptation
+→ structured world representation
+```
+
+Current and planned themes:
+
+- failure of learned representations under changing environments;
+- shared versus environment-specific latent structure;
+- state and parameter separation;
+- continual adaptation and forgetting;
+- mechanism generalization;
+- controlled physical and dynamical testbeds.
 
 ---
 
 ### 📚 Paper-Reading-Notes
 
-Research-level reading system for:
+Research-level reading and synthesis across:
 
-- spatiotemporal graph learning
-- uncertainty and calibration
-- conformal prediction
-- mechanism discovery and causal time-series analysis
-- interpretable representation and trustworthy evaluation
-- AI systems, monitoring, and technical debt in ML systems
+- continual learning and plasticity;
+- representation learning;
+- causal representation learning;
+- dynamical systems and system identification;
+- world models;
+- scientific machine learning;
+- computational neuroscience;
+- philosophy of science and representation.
+
+The goal is not to collect papers, but to develop research questions, mathematical derivations, critical comparisons, and falsifiable hypotheses.
 
 ---
 
 ### 🧠 Representation-Analysis-Lab
 
-Exploratory lab for:
+Experimental tools for studying:
 
-- concept representations
-- CKA and representation similarity
-- probing and hidden-state diagnostics
-- sanity checks for explanations and representations
-- representation drift under noise, missingness, and distribution shift
+- representation similarity and alignment;
+- CKA, CCA, Procrustes analysis, and probing;
+- latent state recovery;
+- disentanglement and factorization;
+- representation drift and reorganization;
+- stability–plasticity behavior;
+- shared, contextual, and novel features.
 
 ---
 
@@ -244,40 +525,51 @@ Exploratory lab for:
 
 Foundation implementations from scratch:
 
-- classical ML, MLPs, optimization, and backpropagation
-- deep learning and attention mechanisms
-- tiny transformer and NLP foundations
-- mathematical intuition and implementation discipline
-- baseline models for reliability and shift experiments
+- classical machine learning;
+- optimization and backpropagation;
+- neural networks and attention;
+- recurrent and state-space models;
+- representation learning;
+- mathematical derivation and implementation discipline.
 
-Earlier RAG / LLM evaluation work remains part of my broader AI reliability interest, especially when evaluation, monitoring, and failure diagnosis are central.
+This repository supports the technical foundations needed for deeper research rather than serving as an isolated collection of models.
 
 ---
 
-## 🛠 Tech Stack
+### 📐 Mathematical-Foundations-for-AI-CS-Lab
 
-### Core
+A developing foundation in:
+
+- mathematical logic and proof;
+- probability and statistics;
+- linear algebra and matrix analysis;
+- optimization;
+- discrete mathematics;
+- geometry and symmetry;
+- dynamical systems;
+- causal and statistical reasoning.
+
+---
+
+## 🛠 Technical Foundations
+
+### Core Languages and Tools
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-### Machine Learning
-
-<p>
-  <img src="https://img.shields.io/badge/Scikit--Learn-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 </p>
 
-### Focus Areas
+### Research Areas
 
 <p>
-  <img src="https://img.shields.io/badge/Trustworthy_AI-191970?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Spatiotemporal_GNN-4B0082?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Causal_Discovery-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Uncertainty_Calibration-006400?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Model_Monitoring-2F4F4F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Continual_Learning-191970?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Representation_Learning-4B0082?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dynamical_Systems-006400?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Causal_Representation-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Scientific_ML-2F4F4F?style=for-the-badge" />
 </p>
 
 ---
@@ -296,45 +588,50 @@ Earlier RAG / LLM evaluation work remains part of my broader AI reliability inte
 
 ## 🧠 Intellectual Interests
 
-| Domain | Focus |
+| Domain | Current Interest |
 |---|---|
-| 🧠 AI | Mechanism-guided trustworthy AI, reliability, interpretability, causality |
-| 🔬 Science | Complex dynamic systems, uncertainty-aware prediction, physics-inspired modeling |
-| 🛠 Systems | Evaluation pipelines, monitoring, human-in-the-loop control, ML systems for reliable deployment |
-| 📡 Signals | Noise, sampling, filtering, graph signals, state estimation, dynamic observations |
-| 📖 Humanities | Epistemology, pragmatism, causality, interpretability, philosophy of science |
+| 🧠 **Machine Learning** | Continual learning, representation learning, world models, causal representation |
+| 📐 **Mathematics** | Probability, geometry, identifiability, optimization, dynamical systems |
+| 🔬 **Physics** | State variables, evolution laws, symmetry, invariants, emergence, effective theories |
+| 🧬 **Cognition** | Memory, abstraction, concept formation, human and machine representation |
+| 📖 **Philosophy** | Scientific explanation, structural realism, epistemology, agency, responsibility |
+| 🛠 **Systems** | How computational architectures preserve, retrieve, revise, and compose knowledge |
 
 ---
 
-## 📌 Active Research Projects
+## 📌 Research Projects
 
-| Project | Direction | Core Question |
+| Project | Role in the Research Program | Core Question |
 |---|---|---|
-| **Reliable Spatiotemporal Forecasting under Dynamic Shift** | STGNN / UQ / Conformal Prediction | How can forecasts remain calibrated and decision-useful when graph structure, sensors, and environments shift? |
-| **Mechanism Discovery for Complex Dynamic Systems** | Causal Discovery / Dynamic Systems | Can models recover stable mechanisms rather than exploiting unstable correlations? |
-| **Graph Construction and Reliability Validation** | Spatiotemporal Graph Learning | When is a learned or designed graph a valid representation of physical, statistical, or causal influence? |
-| **Concept and Representation Stability** | Interpretability / Representation Analysis | Do model representations encode meaningful concepts, and do they remain stable under shift? |
-| **AI Evaluation and Monitoring Pipelines** | AI Reliability / Model Monitoring | How can deployed AI systems be audited, calibrated, monitored, corrected, and controlled over time? |
-| **Mechanism-guided Reliability Harness** | Trustworthy AI Systems | Can uncertainty signals, mechanism checks, and monitoring triggers form a practical control loop for AI failure detection and intervention? |
+| **Reliable Spatiotemporal Forecasting under Dynamic Shift** | Original empirical starting point | How do changes in observations and environments reveal fragile learned representations? |
+| **Shared Latent Dynamics across Environments** | Current technical focus | Can a model preserve common system state while observation conditions change? |
+| **Continual Structured Representation Learning** | Emerging main project | How should representations be preserved, expanded, and reorganized as new experience arrives? |
+| **Representation Stability and Reorganization** | Analytical foundation | When is representation drift harmful, and when does it reflect necessary conceptual revision? |
+| **Mechanism and State Discovery** | Scientific extension | Can learned latent variables recover states, interactions, and evolution laws? |
+| **Human and Machine Representation Notes** | Interdisciplinary inquiry | How do task, memory, abstraction, and experience shape representations in humans and machines? |
 
 ---
 
 ## 💬 Let's Connect
 
-- 💡 Topics:
-  - Mechanism-guided Trustworthy AI
-  - Spatiotemporal Graph Learning
-  - Uncertainty and Calibration
-  - Causal Discovery
-  - AI Evaluation and Monitoring
-  - Interpretability and Representation Analysis
-  - Human-in-the-loop AI Reliability
+### Research Topics
 
-- 📫 Open to:
-  - Research collaborations
-  - ML / AI internships
-  - Applied AI reliability and evaluation projects
-  - Mechanism-guided AI systems research
+- Continual Structured Representation Learning
+- Shared Latent State and Dynamics
+- Stability–Plasticity in Learning Systems
+- Causal and Identifiable Representation Learning
+- Dynamical Systems and Scientific Machine Learning
+- World Models and Adaptive Internal Representations
+- Human and Machine Cognition
+- Philosophy of Scientific Models and AI
+
+### Open To
+
+- Research collaborations
+- ML / AI research internships
+- Scientific machine learning projects
+- Continual and representation learning research
+- Interdisciplinary work connecting AI, mathematics, physics, and cognition
 
 ---
 
