@@ -8,9 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The soul is neither born, and nor does it die.”**  
-> — Bhagavad Gita  
+> **“The more you give, the more comes back to you.”**
+> — Napoleon Hill
 > _source: zenquotes_
+<!-- quote-updated: 2026-07-24 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
