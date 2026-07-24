@@ -8,9 +8,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Nature is written in mathematical language.”**
-> — Galileo Galilei
-> _source: fallback · physics / mathematics_
+> **“There is no science apart from the general. It may even be said that the very object of the exact sciences is to spare us these direct verifications.”**
+> — Henri Poincare
+> _field: mathematics / philosophy · source: wikiquote_
 <!-- quote-updated: 2026-07-24 -->
 <!-- DAILY-QUOTE-END -->
 
