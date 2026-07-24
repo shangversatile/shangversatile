@@ -8,8 +8,8 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Those who want to reap the benefits of this great nation must bear the fatigue of supporting it.”**
-> — Thomas Paine
+> **“Have let your schooling interfere with your education.”**
+> — Mark Dey
 > _source: favqs · qotd_
 <!-- quote-updated: 2026-07-24 -->
 <!-- DAILY-QUOTE-END -->
