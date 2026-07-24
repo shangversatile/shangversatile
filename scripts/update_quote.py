@@ -63,9 +63,9 @@ PREFERRED_AUTHORS = [
 MAX_QUOTE_LENGTH = 180
 
 LOCAL_FALLBACK = (
-    "The important thing is not to stop questioning.",
-    "Albert Einstein",
-    "local-fallback",
+    "Nature is written in mathematical language.",
+    "Galileo Galilei",
+    "fallback · physics / mathematics",
 )
 
 
@@ -270,10 +270,14 @@ def pick_quote() -> tuple[str, str, str]:
         get_from_quotable_by_tags,
         get_from_quotable_plain_random,
     ]
+
     for provider in providers:
         result = provider()
         if result:
-            return result
+            quote, author, source = result
+            if is_topic_relevant(quote, author, source):
+                return result
+            print(f"[INFO] Rejected off-topic quote: {quote} — {author} ({source})")
 
     return LOCAL_FALLBACK
 
