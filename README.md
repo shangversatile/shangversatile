@@ -8,9 +8,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The more you give, the more comes back to you.”**
-> — Napoleon Hill
-> _source: zenquotes_
+> **“Those who want to reap the benefits of this great nation must bear the fatigue of supporting it.”**
+> — Thomas Paine
+> _source: favqs · qotd_
 <!-- quote-updated: 2026-07-24 -->
 <!-- DAILY-QUOTE-END -->
 
