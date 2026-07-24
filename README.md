@@ -162,9 +162,9 @@ Here:
 
 | Component | Meaning |
 |---|---|
-| \(z_t^{\mathrm{shared}}\) | Latent state, relations, or dynamics that remain valid across environments |
-| \(z_t^{\mathrm{context}}\) | Environment-, task-, device-, or observation-specific information |
-| \(z_t^{\mathrm{novel}}\) | New factors that cannot be represented adequately by the existing model |
+| $z_t^{\mathrm{shared}}$ | Latent state, relations, or dynamics that remain valid across environments |
+| $z_t^{\mathrm{context}}$ | Environment-, task-, device-, or observation-specific information |
+| $z_t^{\mathrm{novel}}$ | New factors that cannot be represented adequately by the existing model |
 
 This decomposition is currently a research hypothesis and modeling principle, not an assumption that such factors are always uniquely recoverable.
 
@@ -332,13 +332,13 @@ Here:
 
 | Symbol | Meaning |
 |---|---|
-| \(s_t\) | Underlying system state |
-| \(u_t\) | External action or input |
-| \(\phi\) | System parameters |
-| \(F\) | State-transition rule |
-| \(G_e\) | Environment-dependent observation process |
-| \(\eta_t\) | Observation noise |
-| \(x_t\) | Available observation |
+| $s_t$ | Underlying system state |
+| $u_t$ | External action or input |
+| $\phi$ | System parameters |
+| $F$ | State-transition rule |
+| $G_e$ | Environment-dependent observation process |
+| $\eta_t$ | Observation noise |
+| $x_t$ | Available observation |
 
 A learned model constructs:
 
