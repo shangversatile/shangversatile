@@ -17,15 +17,28 @@ README_PATH = Path("README.md")
 START_MARKER = "<!-- DAILY-QUOTE-START -->"
 END_MARKER = "<!-- DAILY-QUOTE-END -->"
 
-# Primary source: better filtering by authors/tags
-QUOTABLE_BASE = "https://api.quotable.io"
+# Primary + backup Quotable-compatible API bases.
+# api.quotable.io may sometimes be unstable, so we keep a second Quotable deployment as backup.
+QUOTABLE_BASES = [
+    "https://api.quotable.io",
+    "https://api.quotable.kurokeita.dev",
+]
 
-# Backup sources
-ZENQUOTES_RANDOM = "https://zenquotes.io/api/random"
+# Final remote fallback. Quote of the Day does not require an API token.
 FAVQS_QOTD = "https://favqs.com/api/qotd"
 
-# Prefer authors related to physics, philosophy, mathematics, psychology, and literature.
-# Not every API contains every author, so this is used as a preferred filter, not a guarantee.
+# Broad intellectual tags. These are more reliable than very narrow tags.
+PREFERRED_TAGS = [
+    "science",
+    "wisdom",
+    "knowledge",
+    "famous-quotes",
+    "philosophy",
+    "literature",
+]
+
+# Preferred authors related to physics, philosophy, mathematics, psychology, and literature.
+# Not every API source contains all of them, so this is used as a preference, not a guarantee.
 PREFERRED_AUTHORS = [
     "Albert Einstein",
     "Isaac Newton",
@@ -47,16 +60,6 @@ PREFERRED_AUTHORS = [
     "Virginia Woolf",
 ]
 
-# Tags supported by Quotable vary, so keep them broad and robust.
-PREFERRED_TAGS = [
-    "wisdom",
-    "science",
-    "famous-quotes",
-    "knowledge",
-    "philosophy",
-    "literature",
-]
-
 MAX_QUOTE_LENGTH = 180
 
 LOCAL_FALLBACK = (
@@ -67,10 +70,6 @@ LOCAL_FALLBACK = (
 
 
 def fetch_json(url: str, retries: int = 2, timeout: int = 20) -> Any:
-    """
-    Fetch JSON with lightweight retry logic.
-    This avoids failing immediately when an external quote API is temporarily unstable.
-    """
     last_error: Exception | None = None
 
     for attempt in range(1, retries + 1):
@@ -86,11 +85,7 @@ def fetch_json(url: str, retries: int = 2, timeout: int = 20) -> Any:
             )
 
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                status = getattr(resp, "status", None)
                 payload = resp.read().decode("utf-8")
-
-            if status and status >= 400:
-                raise RuntimeError(f"HTTP status {status}")
 
             return json.loads(payload)
 
@@ -121,12 +116,14 @@ def is_valid_quote(quote: str | None, author: str | None) -> bool:
     if len(quote) > MAX_QUOTE_LENGTH:
         return False
 
-    # Avoid ZenQuotes occasional rate-limit / service messages.
     bad_phrases = [
         "too many requests",
-        "zenquotes.io",
-        "upgrade",
         "rate limit",
+        "upgrade",
+        "zenquotes",
+        "zenquotes.io",
+        "error",
+        "not found",
     ]
 
     lowered = quote.lower()
@@ -138,39 +135,54 @@ def parse_quotable_item(item: dict[str, Any], source: str) -> tuple[str, str, st
     author = item.get("author")
 
     if is_valid_quote(quote, author):
-        return normalize_text(quote), normalize_text(author), source
+        return normalize_text(str(quote)), normalize_text(str(author)), source
+
+    return None
+
+
+def parse_quotable_response(data: Any, source: str) -> tuple[str, str, str] | None:
+    items: list[dict[str, Any]] = []
+
+    if isinstance(data, list):
+        items = [item for item in data if isinstance(item, dict)]
+    elif isinstance(data, dict):
+        # Some APIs return a single object, some return {"results": [...]}
+        if isinstance(data.get("results"), list):
+            items = [item for item in data["results"] if isinstance(item, dict)]
+        else:
+            items = [data]
+
+    random.shuffle(items)
+
+    for item in items:
+        result = parse_quotable_item(item, source)
+        if result:
+            return result
 
     return None
 
 
 def get_from_quotable_by_author() -> tuple[str, str, str] | None:
-    """
-    Try Quotable with preferred authors.
-    This is the most targeted strategy for physics / philosophy / mathematics / literature.
-    """
     authors = random.sample(PREFERRED_AUTHORS, k=min(6, len(PREFERRED_AUTHORS)))
 
-    for author in authors:
-        params = {
-            "limit": "1",
-            "maxLength": str(MAX_QUOTE_LENGTH),
-            "author": author,
-        }
-        url = f"{QUOTABLE_BASE}/quotes/random?{urllib.parse.urlencode(params)}"
+    for base in QUOTABLE_BASES:
+        for author in authors:
+            params = {
+                "limit": "3",
+                "maxLength": str(MAX_QUOTE_LENGTH),
+                "author": author,
+            }
 
-        try:
-            data = fetch_json(url)
-        except Exception as e:
-            print(f"[WARN] Quotable author source failed for {author}: {e}")
-            continue
+            # Quotable random endpoint.
+            url = f"{base}/quotes/random?{urllib.parse.urlencode(params)}"
 
-        if isinstance(data, list) and data:
-            result = parse_quotable_item(data[0], f"quotable · author · {author}")
-            if result:
-                return result
+            try:
+                data = fetch_json(url)
+            except Exception as e:
+                print(f"[WARN] Quotable author source failed: {base}, {author}: {e}")
+                continue
 
-        if isinstance(data, dict):
-            result = parse_quotable_item(data, f"quotable · author · {author}")
+            result = parse_quotable_response(data, f"quotable · author · {author}")
             if result:
                 return result
 
@@ -178,103 +190,85 @@ def get_from_quotable_by_author() -> tuple[str, str, str] | None:
 
 
 def get_from_quotable_by_tags() -> tuple[str, str, str] | None:
-    """
-    Try Quotable with broad tags.
-    This is less precise than authors but still more relevant than fully random quotes.
-    """
-    random.shuffle(PREFERRED_TAGS)
+    tags = PREFERRED_TAGS[:]
+    random.shuffle(tags)
 
-    tag_query = "|".join(PREFERRED_TAGS[:4])
-    params = {
-        "limit": "5",
-        "maxLength": str(MAX_QUOTE_LENGTH),
-        "tags": tag_query,
-    }
-    url = f"{QUOTABLE_BASE}/quotes/random?{urllib.parse.urlencode(params)}"
+    # Use broad intellectual tags.
+    selected_tags = tags[:4]
+    tag_query = "|".join(selected_tags)
 
-    try:
-        data = fetch_json(url)
-    except Exception as e:
-        print(f"[WARN] Quotable tag source failed: {e}")
-        return None
+    for base in QUOTABLE_BASES:
+        params = {
+            "limit": "5",
+            "maxLength": str(MAX_QUOTE_LENGTH),
+            "tags": tag_query,
+        }
 
-    items: list[dict[str, Any]] = []
+        url = f"{base}/quotes/random?{urllib.parse.urlencode(params)}"
 
-    if isinstance(data, list):
-        items = [item for item in data if isinstance(item, dict)]
-    elif isinstance(data, dict):
-        items = [data]
+        try:
+            data = fetch_json(url)
+        except Exception as e:
+            print(f"[WARN] Quotable tag source failed: {base}: {e}")
+            continue
 
-    random.shuffle(items)
-
-    for item in items:
-        result = parse_quotable_item(item, f"quotable · tags · {tag_query}")
+        result = parse_quotable_response(data, f"quotable · tags · {tag_query}")
         if result:
             return result
 
     return None
 
 
-def get_from_zenquotes() -> tuple[str, str, str] | None:
-    """
-    Backup API.
-    ZenQuotes is less domain-specific but often useful as a stable secondary source.
-    """
-    try:
-        data = fetch_json(ZENQUOTES_RANDOM)
-    except Exception as e:
-        print(f"[WARN] ZenQuotes failed: {e}")
-        return None
+def get_from_quotable_plain_random() -> tuple[str, str, str] | None:
+    for base in QUOTABLE_BASES:
+        params = {
+            "maxLength": str(MAX_QUOTE_LENGTH),
+        }
 
-    if isinstance(data, list) and data:
-        item = data[0]
-        if isinstance(item, dict):
-            quote = item.get("q")
-            author = item.get("a")
+        # Try /random as another compatible pattern.
+        url = f"{base}/random?{urllib.parse.urlencode(params)}"
 
-            if is_valid_quote(quote, author):
-                return normalize_text(quote), normalize_text(author), "zenquotes"
+        try:
+            data = fetch_json(url)
+        except Exception as e:
+            print(f"[WARN] Quotable plain random failed: {base}: {e}")
+            continue
+
+        result = parse_quotable_response(data, "quotable · random")
+        if result:
+            return result
 
     return None
 
 
 def get_from_favqs_qotd() -> tuple[str, str, str] | None:
-    """
-    Final remote fallback.
-    FavQs Quote of the Day does not require an API token.
-    """
     try:
         data = fetch_json(FAVQS_QOTD)
     except Exception as e:
         print(f"[WARN] FavQs QOTD failed: {e}")
         return None
 
-    if isinstance(data, dict):
-        quote_obj = data.get("quote")
+    if not isinstance(data, dict):
+        return None
 
-        if isinstance(quote_obj, dict):
-            quote = quote_obj.get("body")
-            author = quote_obj.get("author")
+    quote_obj = data.get("quote")
+    if not isinstance(quote_obj, dict):
+        return None
 
-            if is_valid_quote(quote, author):
-                return normalize_text(quote), normalize_text(author), "favqs · qotd"
+    quote = quote_obj.get("body")
+    author = quote_obj.get("author")
+
+    if is_valid_quote(quote, author):
+        return normalize_text(str(quote)), normalize_text(str(author)), "favqs · qotd"
 
     return None
 
 
 def pick_quote() -> tuple[str, str, str]:
-    """
-    Multi-source strategy:
-    1. Quotable by preferred authors
-    2. Quotable by broad intellectual tags
-    3. ZenQuotes random
-    4. FavQs quote of the day
-    5. Local hardcoded fallback
-    """
     providers = [
         get_from_quotable_by_author,
         get_from_quotable_by_tags,
-        get_from_zenquotes,
+        get_from_quotable_plain_random,
         get_from_favqs_qotd,
     ]
 
