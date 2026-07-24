@@ -8,9 +8,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Have let your schooling interfere with your education.”**
-> — Mark Dey
-> _source: favqs · qotd_
+> **“Nature is written in mathematical language.”**
+> — Galileo Galilei
+> _source: fallback · physics / mathematics_
 <!-- quote-updated: 2026-07-24 -->
 <!-- DAILY-QUOTE-END -->
 
