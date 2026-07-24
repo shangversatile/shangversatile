@@ -18,7 +18,7 @@ concurrency:
 jobs:
   update-quote:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
 
     steps:
       - name: Checkout repository
@@ -30,7 +30,7 @@ jobs:
           python-version: "3.11"
 
       - name: Update README quote
-        run: python scripts/update_quote.py
+        run: timeout 90s python scripts/update_quote.py
 
       - name: Show git diff
         run: git diff -- README.md
