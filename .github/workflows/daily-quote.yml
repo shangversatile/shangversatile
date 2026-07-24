@@ -5,15 +5,20 @@ env:
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # 每天加州时间早上9点（UTC 16点）
+    - cron: "0 16 * * *"   # California 9 AM during daylight saving time; UTC 16:00
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: daily-quote-update
+  cancel-in-progress: true
+
 jobs:
   update-quote:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
@@ -24,11 +29,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Update README quote
         run: python scripts/update_quote.py
+
+      - name: Show git diff
+        run: git diff -- README.md
 
       - name: Commit and push if changed
         run: |
@@ -37,7 +42,7 @@ jobs:
 
           if [[ -n "$(git status --porcelain)" ]]; then
             git add README.md
-            git commit -m "chore: update daily quote"
+            git commit -m "chore: update daily quote [skip ci]"
             git push
           else
             echo "No changes to commit."
