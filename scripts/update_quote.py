@@ -269,9 +269,7 @@ def pick_quote() -> tuple[str, str, str]:
         get_from_quotable_by_author,
         get_from_quotable_by_tags,
         get_from_quotable_plain_random,
-        get_from_favqs_qotd,
     ]
-
     for provider in providers:
         result = provider()
         if result:
