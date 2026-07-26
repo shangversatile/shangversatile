@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Two things are infinite: the universe and the human stupidity.”**
-> — Albert Einstein
-> _field: physics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-07-25 -->
+> **“No need to hurry. No need to sparkle. No need to be anybody but oneself.”**
+> — Virginia Woolf
+> _field: literature · source: wikiquote_
+<!-- quote-updated: 2026-07-26 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
