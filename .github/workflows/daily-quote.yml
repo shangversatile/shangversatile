@@ -2,10 +2,15 @@ name: Daily Quote Update
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  PYTHONUNBUFFERED: "1"
+  QUOTE_MAX_TOTAL_SECONDS: "35"
+  QUOTE_REQUEST_TIMEOUT_SECONDS: "6"
+  QUOTE_MAX_PAGES_PER_RUN: "3"
+  QUOTE_ALLOW_FALLBACK_UPDATE: "false"
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # California 9 AM during daylight saving time; UTC 16:00
+    - cron: "17 16 * * *"   # UTC 16:17; about California 9:17 AM during daylight saving time
   workflow_dispatch:
 
 permissions:
@@ -18,9 +23,16 @@ concurrency:
 jobs:
   update-quote:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 2
 
     steps:
+      - name: Show trigger info
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "ref=${{ github.ref }}"
+          echo "sha=${{ github.sha }}"
+          date
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -30,7 +42,7 @@ jobs:
           python-version: "3.11"
 
       - name: Update README quote
-        run: timeout 90s python scripts/update_quote.py
+        run: timeout 45s python -u scripts/update_quote.py
 
       - name: Show git diff
         run: git diff -- README.md
