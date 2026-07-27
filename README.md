@@ -8,9 +8,9 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“There was ever more in him to be praised than to be pardoned.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
+> **“Then I would have felt sorry for the dear Lord. The theory is correct.”**
+> — Albert Einstein
+> _field: physics / philosophy · source: wikiquote_
 <!-- quote-updated: 2026-07-27 -->
 <!-- DAILY-QUOTE-END -->
 
