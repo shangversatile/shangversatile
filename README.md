@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“No need to hurry. No need to sparkle. No need to be anybody but oneself.”**
-> — Virginia Woolf
+> **“There was ever more in him to be praised than to be pardoned.”**
+> — William Shakespeare
 > _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-07-26 -->
+<!-- quote-updated: 2026-07-27 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
