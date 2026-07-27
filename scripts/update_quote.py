@@ -4,8 +4,11 @@ from __future__ import annotations
 import datetime as dt
 import html
 import json
+import os
 import random
 import re
+import signal
+import socket
 import sys
 import time
 import urllib.parse
@@ -20,8 +23,15 @@ END_MARKER = "<!-- DAILY-QUOTE-END -->"
 
 WIKIQUOTE_API = "https://en.wikiquote.org/w/api.php"
 
-# 固定抓取这些页面，避免随机 API 把内容带偏。
-# field 用于 README 里展示方向。
+MAX_TOTAL_SECONDS = int(os.getenv("QUOTE_MAX_TOTAL_SECONDS", "35"))
+REQUEST_TIMEOUT_SECONDS = int(os.getenv("QUOTE_REQUEST_TIMEOUT_SECONDS", "6"))
+MAX_PAGES_PER_RUN = int(os.getenv("QUOTE_MAX_PAGES_PER_RUN", "3"))
+
+# 调试阶段建议 False：远程失败就让 workflow 失败，不要用 fallback 假装成功。
+ALLOW_FALLBACK_UPDATE = os.getenv("QUOTE_ALLOW_FALLBACK_UPDATE", "false").lower() == "true"
+
+START_TIME = time.monotonic()
+
 AUTHOR_PAGES = [
     {"title": "Albert Einstein", "field": "physics / philosophy"},
     {"title": "Richard Feynman", "field": "physics"},
@@ -32,53 +42,38 @@ AUTHOR_PAGES = [
     {"title": "Immanuel Kant", "field": "philosophy"},
     {"title": "David Hume", "field": "philosophy / causality"},
     {"title": "Aristotle", "field": "philosophy"},
-    {"title": "Plato", "field": "philosophy"},
-    {"title": "Friedrich Nietzsche", "field": "philosophy"},
     {"title": "Ludwig Wittgenstein", "field": "philosophy / language"},
     {"title": "William James", "field": "psychology / philosophy"},
-    {"title": "Carl Jung", "field": "psychology"},
     {"title": "Blaise Pascal", "field": "mathematics / philosophy"},
     {"title": "Henri Poincare", "field": "mathematics / philosophy"},
     {"title": "William Shakespeare", "field": "literature"},
-    {"title": "Fyodor Dostoevsky", "field": "literature / psychology"},
-    {"title": "Virginia Woolf", "field": "literature"},
 ]
 
 MIN_QUOTE_LENGTH = 30
 MAX_QUOTE_LENGTH = 220
 
-# 这些词容易把主页气质带到政治、国家、战争、政论方向，先过滤掉。
 BANNED_TERMS = [
     "nation",
     "country",
     "government",
     "president",
-    "king",
-    "queen",
     "empire",
     "war",
     "army",
     "revolution",
-    "liberty",
-    "freedom",
     "patriot",
     "politics",
     "political",
     "democracy",
     "republic",
     "constitution",
-    "lawgiver",
     "tyrant",
-    "slave",
     "slavery",
     "citizen",
-    "state",
     "statesman",
-    "tax",
     "election",
 ]
 
-# 这些词更符合你的主页方向：物理、哲学、数学、认识论、心智、文学。
 PREFERRED_TERMS = [
     "nature",
     "science",
@@ -110,70 +105,95 @@ PREFERRED_TERMS = [
     "question",
 ]
 
-# 只有远程抓取全部失败时才会使用。
-# 这不是主要来源，只是防止 workflow 空跑或写入坏内容。
 SAFE_FALLBACK_QUOTES = [
+    {
+        "quote": "Nature is written in mathematical language.",
+        "author": "Galileo Galilei",
+        "field": "physics / mathematics",
+        "source": "fallback · physics / mathematics",
+    },
     {
         "quote": "The important thing is not to stop questioning.",
         "author": "Albert Einstein",
         "field": "physics / philosophy",
-        "source": "safe-fallback",
-    },
-    {
-        "quote": "Sapere aude.",
-        "author": "Immanuel Kant",
-        "field": "philosophy",
-        "source": "safe-fallback",
+        "source": "fallback · physics / philosophy",
     },
     {
         "quote": "All men by nature desire to know.",
         "author": "Aristotle",
         "field": "philosophy",
-        "source": "safe-fallback",
+        "source": "fallback · philosophy",
     },
 ]
 
 
-def fetch_json(url: str, timeout: int = 8, retries: int = 1) -> Any:
-    last_error: Exception | None = None
+def log(level: str, message: str) -> None:
+    print(f"[{level}] {message}", flush=True)
 
-    for attempt in range(1, retries + 1):
-        try:
-            print(f"[DEBUG] Fetching attempt {attempt}/{retries}: {url}")
 
-            req = urllib.request.Request(
-                url,
-                headers={
-                    "User-Agent": "Mozilla/5.0 (GitHub Actions Wikiquote quote updater)",
-                    "Accept": "application/json",
-                },
-            )
+def elapsed_seconds() -> float:
+    return time.monotonic() - START_TIME
 
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                payload = resp.read().decode("utf-8", errors="replace")
 
-            return json.loads(payload)
+def remaining_seconds() -> float:
+    return MAX_TOTAL_SECONDS - elapsed_seconds()
 
-        except Exception as e:
-            last_error = e
-            print(f"[WARN] Fetch failed: {type(e).__name__}: {e}")
-            time.sleep(0.5)
 
-    raise RuntimeError(f"Fetch failed. Last error: {last_error}")
+def ensure_time_left(stage: str) -> None:
+    if remaining_seconds() <= 0:
+        raise TimeoutError(f"Global quote updater deadline exceeded during: {stage}")
+
+
+def alarm_handler(signum: int, frame: object) -> None:
+    raise TimeoutError("Hard process timeout reached.")
+
+
+if hasattr(signal, "SIGALRM"):
+    signal.signal(signal.SIGALRM, alarm_handler)
+    signal.alarm(MAX_TOTAL_SECONDS + 5)
+
+socket.setdefaulttimeout(REQUEST_TIMEOUT_SECONDS)
 
 
 def normalize_text(text: str) -> str:
     text = html.unescape(text)
-    text = text.replace("\r\n", "\n").replace("\r", "\n").strip()
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 
+def contains_word(text: str, term: str) -> bool:
+    return re.search(rf"\b{re.escape(term)}\b", text, flags=re.IGNORECASE) is not None
+
+
+def fetch_json(url: str) -> Any:
+    ensure_time_left("fetch_json:start")
+
+    left = remaining_seconds()
+    if left < 1.0:
+        raise TimeoutError("Not enough time left for another HTTP request.")
+
+    timeout = max(1.0, min(float(REQUEST_TIMEOUT_SECONDS), left))
+
+    log("DEBUG", f"Fetching URL with timeout={timeout:.1f}s: {url}")
+
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (GitHub Actions Wikiquote quote updater)",
+            "Accept": "application/json",
+        },
+    )
+
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        # 防止异常大页面导致 read 卡太久。
+        payload = resp.read(2_000_000).decode("utf-8", errors="replace")
+
+    ensure_time_left("fetch_json:after_read")
+    return json.loads(payload)
+
+
 def strip_nested_templates(text: str) -> str:
-    """
-    Remove simple MediaWiki templates like {{...}}.
-    This is not a full wikitext parser, but it is enough for README quote cleanup.
-    """
     previous = None
     current = text
 
@@ -187,42 +207,29 @@ def strip_nested_templates(text: str) -> str:
 def clean_wikitext(raw: str) -> str:
     text = raw
 
-    # Remove comments and references.
     text = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
     text = re.sub(r"<ref[^>/]*/>", "", text, flags=re.IGNORECASE)
     text = re.sub(r"<ref[^>]*>.*?</ref>", "", text, flags=re.IGNORECASE | re.DOTALL)
 
-    # Remove common templates.
     text = strip_nested_templates(text)
 
-    # Convert wiki links:
-    # [[Page|display]] -> display
-    # [[Page]] -> Page
     text = re.sub(r"\[\[[^|\]]+\|([^\]]+)\]\]", r"\1", text)
     text = re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
 
-    # Remove external links:
-    # [http://example.com label] -> label
-    # [http://example.com] -> ""
     text = re.sub(r"\[https?://[^\s\]]+\s+([^\]]+)\]", r"\1", text)
     text = re.sub(r"\[https?://[^\]]+\]", "", text)
 
-    # Remove HTML tags.
     text = re.sub(r"<[^>]+>", "", text)
 
-    # Remove bold / italic wiki markup.
     text = text.replace("'''", "").replace("''", "")
-
-    # Remove remaining citation markers.
     text = re.sub(r"\[\d+\]", "", text)
 
-    # Clean repeated spaces.
-    text = normalize_text(text)
-
-    return text
+    return normalize_text(text)
 
 
 def fetch_wikiquote_wikitext(title: str) -> str:
+    ensure_time_left(f"fetch_wikiquote_wikitext:{title}")
+
     params = {
         "action": "query",
         "prop": "revisions",
@@ -252,11 +259,7 @@ def fetch_wikiquote_wikitext(title: str) -> str:
     if not revisions:
         raise ValueError(f"No revisions returned for title={title}")
 
-    revision = revisions[0]
-    slots = revision.get("slots", {})
-    main_slot = slots.get("main", {})
-
-    content = main_slot.get("content")
+    content = revisions[0].get("slots", {}).get("main", {}).get("content")
 
     if not content:
         raise ValueError(f"No wikitext content returned for title={title}")
@@ -265,24 +268,23 @@ def fetch_wikiquote_wikitext(title: str) -> str:
 
 
 def extract_quote_candidates(wikitext: str) -> list[str]:
+    ensure_time_left("extract_quote_candidates")
+
     candidates: list[str] = []
 
     for raw_line in wikitext.splitlines():
         line = raw_line.strip()
 
-        # Main Wikiquote quotes commonly begin with a single "*".
-        # Skip sub-bullets "**", section metadata, and empty lines.
         if not line.startswith("*"):
             continue
 
         if line.startswith("**") or line.startswith("*:"):
             continue
 
-        # Remove leading bullet markers.
         line = re.sub(r"^\*+\s*", "", line).strip()
 
-        # Skip obvious metadata / file / category / section artifacts.
         lowered = line.lower()
+
         if not line:
             continue
 
@@ -310,27 +312,19 @@ def is_good_quote(quote: str) -> bool:
     if len(q) > MAX_QUOTE_LENGTH:
         return False
 
-    # Avoid quotes with too much leftover markup.
     bad_markup = ["{{", "}}", "[[", "]]", "<ref", "</ref>", "|"]
     if any(mark in q for mark in bad_markup):
         return False
 
-    # Avoid lists or sentence fragments.
-    if q.count(";") >= 3:
+    if q.count(";") >= 3 or q.count(":") >= 3:
         return False
 
-    if q.count(":") >= 3:
+    if any(contains_word(lowered, term) for term in BANNED_TERMS):
         return False
 
-    # Avoid political direction.
-    if any(term in lowered for term in BANNED_TERMS):
-        return False
-
-    # Prefer theme relevance. But do not make it too strict for literature authors.
     if any(term in lowered for term in PREFERRED_TERMS):
         return True
 
-    # Accept clean aphoristic quotes even if they do not contain preferred keywords.
     if 50 <= len(q) <= 160 and q.endswith((".", "!", "?")):
         return True
 
@@ -349,39 +343,43 @@ def pick_quote_from_wikiquote() -> dict[str, str] | None:
 
     pages = AUTHOR_PAGES[:]
     rng.shuffle(pages)
+    pages = pages[:MAX_PAGES_PER_RUN]
 
-    # 限制最多请求 6 个页面，防止 GitHub Actions 卡太久。
-    pages = pages[:6]
+    log("INFO", f"Trying {len(pages)} Wikiquote pages. Global timeout={MAX_TOTAL_SECONDS}s.")
 
     for page in pages:
+        ensure_time_left(f"page_loop:{page['title']}")
+
         title = page["title"]
         field = page["field"]
 
+        log("INFO", f"Trying Wikiquote page: {title}")
+
         try:
             wikitext = fetch_wikiquote_wikitext(title)
+            candidates = extract_quote_candidates(wikitext)
+            good_quotes = [q for q in candidates if is_good_quote(q)]
+
+            log(
+                "INFO",
+                f"{title}: {len(candidates)} candidates, {len(good_quotes)} passed filters.",
+            )
+
+            if not good_quotes:
+                continue
+
+            quote = rng.choice(good_quotes)
+
+            return {
+                "quote": quote,
+                "author": title,
+                "field": field,
+                "source": "wikiquote",
+            }
+
         except Exception as e:
-            print(f"[WARN] Failed to fetch Wikiquote page {title}: {type(e).__name__}: {e}")
+            log("WARN", f"Failed on {title}: {type(e).__name__}: {e}")
             continue
-
-        candidates = extract_quote_candidates(wikitext)
-        good_quotes = [q for q in candidates if is_good_quote(q)]
-
-        print(
-            f"[INFO] {title}: {len(candidates)} candidates, "
-            f"{len(good_quotes)} passed filters."
-        )
-
-        if not good_quotes:
-            continue
-
-        quote = rng.choice(good_quotes)
-
-        return {
-            "quote": quote,
-            "author": title,
-            "field": field,
-            "source": "wikiquote",
-        }
 
     return None
 
@@ -405,8 +403,10 @@ def build_block(item: dict[str, str]) -> str:
 
 
 def update_readme() -> bool:
+    ensure_time_left("update_readme:start")
+
     if not README_PATH.exists():
-        print("[ERROR] README.md not found.", file=sys.stderr)
+        log("ERROR", "README.md not found.")
         return False
 
     content = README_PATH.read_text(encoding="utf-8")
@@ -417,22 +417,26 @@ def update_readme() -> bool:
     )
 
     if not pattern.search(content):
-        print(
-            f"[ERROR] Could not find quote markers in README.md:\n"
-            f"{START_MARKER} ... {END_MARKER}",
-            file=sys.stderr,
-        )
+        log("ERROR", f"Could not find quote markers: {START_MARKER} ... {END_MARKER}")
         return False
 
     item = pick_quote_from_wikiquote()
 
     if item is None:
-        print("[WARN] All Wikiquote sources failed. Using safe fallback.")
+        if not ALLOW_FALLBACK_UPDATE:
+            log(
+                "ERROR",
+                "No valid remote quote was found. README will not be updated with fallback.",
+            )
+            return False
+
+        log("WARN", "No valid remote quote found. Using fallback because QUOTE_ALLOW_FALLBACK_UPDATE=true.")
         item = pick_fallback_quote()
 
-    print(
-        f"[INFO] Quote selected: {item['quote']} — {item['author']} "
-        f"({item['field']} · {item['source']})"
+    log(
+        "INFO",
+        f"Quote selected: {item['quote']} — {item['author']} "
+        f"({item['field']} · {item['source']})",
     )
 
     new_block = build_block(item)
@@ -440,15 +444,26 @@ def update_readme() -> bool:
 
     if new_content != content:
         README_PATH.write_text(new_content, encoding="utf-8")
-        print("[SUCCESS] README.md updated.")
+        log("SUCCESS", "README.md updated.")
     else:
-        print("[INFO] No changes needed.")
+        log("INFO", "No changes needed.")
 
     return True
 
 
 def main() -> int:
-    return 0 if update_readme() else 1
+    try:
+        ok = update_readme()
+        return 0 if ok else 1
+    except TimeoutError as e:
+        log("ERROR", f"Timeout: {e}")
+        return 124
+    except Exception as e:
+        log("ERROR", f"Unexpected failure: {type(e).__name__}: {e}")
+        return 1
+    finally:
+        if hasattr(signal, "SIGALRM"):
+            signal.alarm(0)
 
 
 if __name__ == "__main__":
