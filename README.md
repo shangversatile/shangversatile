@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Then I would have felt sorry for the dear Lord. The theory is correct.”**
+> **“Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.”**
 > — Albert Einstein
 > _field: physics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-07-27 -->
+<!-- quote-updated: 2026-07-28 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
