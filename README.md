@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.”**
-> — Albert Einstein
-> _field: physics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-07-28 -->
+> **“A propensity to hope and joy is real riches: One to fear and sorrow, real poverty.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-07-29 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
