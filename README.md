@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“How much good it would do if one could exterminate the human race.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-07-31 -->
+> **“Every sentence I utter must be understood not as an affirmation, but as a question.”**
+> — Niels Bohr
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-08-01 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
