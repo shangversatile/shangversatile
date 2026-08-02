@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Every sentence I utter must be understood not as an affirmation, but as a question.”**
-> — Niels Bohr
+> **“Energy is a very subtle concept. It is very, very difficult to get right.”**
+> — Richard Feynman
 > _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-08-01 -->
+<!-- quote-updated: 2026-08-02 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
