@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Energy is a very subtle concept. It is very, very difficult to get right.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-08-02 -->
+> **“All our knowledge falls with the bounds of experience.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-03 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
