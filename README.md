@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“All our knowledge falls with the bounds of experience.”**
-> — Immanuel Kant
-> _field: philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-03 -->
+> **“If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.”**
+> — Galileo Galilei
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-08-04 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
