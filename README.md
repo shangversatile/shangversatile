@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-08-04 -->
+> **“In every page of David Hume, there is more to be learned than from Hegel's, Herbart's and Schleiermacher's complete philosophical works.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-08-05 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
