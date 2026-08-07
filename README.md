@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“In every page of David Hume, there is more to be learned than from Hegel's, Herbart's and Schleiermacher's complete philosophical works.”**
+> **“The sense of justice and injustice is not deriv'd from nature, but arises artificially... from education, and human conventions.”**
 > — David Hume
 > _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-08-05 -->
+<!-- quote-updated: 2026-08-07 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
