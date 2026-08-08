@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The sense of justice and injustice is not deriv'd from nature, but arises artificially... from education, and human conventions.”**
-> — David Hume
-> _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-08-07 -->
+> **“A philosophical attempt to work out a universal history according to a natural plan directed to achieving the civic union of the human race must be regarded as possible and, indeed, as contributing to this end of Nature.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-08 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
