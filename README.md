@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It is only in order to shield your ignorance that you put the Lord at every turn to the refuge of a miracle.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-08-09 -->
+> **“Without effort and change, human life cannot remain good. It is not a finished Utopia that we ought to desire, but a world where imagination and hope are alive and active.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-08-10 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
