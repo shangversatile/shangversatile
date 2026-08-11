@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Without effort and change, human life cannot remain good. It is not a finished Utopia that we ought to desire, but a world where imagination and hope are alive and active.”**
+> **“I feel like that intellectual but plain-looking lady who was warmly complimented on her beauty.”**
 > — Bertrand Russell
 > _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-08-10 -->
+<!-- quote-updated: 2026-08-11 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
