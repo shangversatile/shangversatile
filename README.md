@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“I feel like that intellectual but plain-looking lady who was warmly complimented on her beauty.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-08-11 -->
+> **“Einstein has not — as you sometimes hear — given the lie to Kant’s deep thoughts on the idealization of space and time; he has, on the contrary, made a large step towards its accomplishment.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-12 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
