@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Einstein has not — as you sometimes hear — given the lie to Kant’s deep thoughts on the idealization of space and time; he has, on the contrary, made a large step towards its accomplishment.”**
-> — Immanuel Kant
-> _field: philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-12 -->
+> **“There are more things in heaven and earth, Horatio, / Than are dreamt of in your philosophy.”**
+> — William Shakespeare
+> _field: literature · source: wikiquote_
+<!-- quote-updated: 2026-08-13 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
