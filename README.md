@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“There are more things in heaven and earth, Horatio, / Than are dreamt of in your philosophy.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-08-13 -->
+> **“Ich habe auch manchen wissenschaftlichen Plan überlegt, während ich Dich im Kinderwagen spazieren schob!”**
+> — Albert Einstein
+> _field: physics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-14 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
