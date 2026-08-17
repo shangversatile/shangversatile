@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“There is no science apart from the general. It may even be said that the very object of the exact sciences is to spare us these direct verifications.”**
-> — Henri Poincare
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-16 -->
+> **“διὸ καὶ φιλοσοφώτερον καὶ σπουδαιότερον ποίησις ἱστορίας ἐστίν: ἡ μὲν γὰρ ποίησις μᾶλλον τὰ καθόλου, ἡ δ᾽ ἱστορία τὰ καθ᾽ ἕκαστον λέγει.”**
+> — Aristotle
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-17 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
