@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“διὸ καὶ φιλοσοφώτερον καὶ σπουδαιότερον ποίησις ἱστορίας ἐστίν: ἡ μὲν γὰρ ποίησις μᾶλλον τὰ καθόλου, ἡ δ᾽ ἱστορία τὰ καθ᾽ ἕκαστον λέγει.”**
-> — Aristotle
-> _field: philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-17 -->
+> **“No one is ignorant that there are two avenues by which opinions are received into the soul, which are its two principal powers: the understanding and the will.”**
+> — Blaise Pascal
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-18 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
