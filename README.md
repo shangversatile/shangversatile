@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“No one is ignorant that there are two avenues by which opinions are received into the soul, which are its two principal powers: the understanding and the will.”**
+> **“What Pascal said of an effective religion is true of any effective doctrine: It must be "contrary to nature, to common sense and to pleasure."”**
 > — Blaise Pascal
 > _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-18 -->
+<!-- quote-updated: 2026-08-19 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
