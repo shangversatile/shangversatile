@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“What Pascal said of an effective religion is true of any effective doctrine: It must be "contrary to nature, to common sense and to pleasure."”**
-> — Blaise Pascal
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-19 -->
+> **“The verbal poetical texture of Shakespeare is the greatest the world has known, and is immensely superior to the structure of his plays as plays.”**
+> — William Shakespeare
+> _field: literature · source: wikiquote_
+<!-- quote-updated: 2026-08-20 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
