@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The verbal poetical texture of Shakespeare is the greatest the world has known, and is immensely superior to the structure of his plays as plays.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-08-20 -->
+> **“[Newton] achieved the clearest appreciation of the relation between the empirical elements in a scientific system and the hypothetical elements derived from a philosophy of nature.”**
+> — Isaac Newton
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-08-21 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
