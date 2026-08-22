@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“[Newton] achieved the clearest appreciation of the relation between the empirical elements in a scientific system and the hypothetical elements derived from a philosophy of nature.”**
-> — Isaac Newton
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-08-21 -->
+> **“People almost invariably arrive at their beliefs not on the basis of proof but on the basis of what they find attractive.”**
+> — Blaise Pascal
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-22 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
