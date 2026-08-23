@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“People almost invariably arrive at their beliefs not on the basis of proof but on the basis of what they find attractive.”**
-> — Blaise Pascal
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-22 -->
+> **“Truth happens to an idea. It becomes true, is made true by events. Its verity is in fact an event, a process: the process namely of its verifying itself, its veri-fication. Its validity is the process of its valid-ation.”**
+> — William James
+> _field: psychology / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-23 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
