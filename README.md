@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Truth happens to an idea. It becomes true, is made true by events. Its verity is in fact an event, a process: the process namely of its verifying itself, its veri-fication. Its validity is the process of its valid-ation.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-23 -->
+> **“Wenn ich die Elementarsätze nicht a priori angeben kann, dann muss es zu offenbarem Unsinn führen, sie angeben zu wollen.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-08-24 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
