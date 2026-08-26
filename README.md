@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Time's glory is to calm contending kings,To unmask falsehood, and bring truth to light.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-08-25 -->
+> **“It is not enough to be wrong, one must also be polite.”**
+> — Niels Bohr
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-08-26 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
