@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It is not enough to be wrong, one must also be polite.”**
-> — Niels Bohr
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-08-26 -->
+> **“Un genio es alguien que descubre que la piedra que cae y la luna que no cae representan un solo y mismo fenómeno.”**
+> — Isaac Newton
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-08-28 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
