@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Un genio es alguien que descubre que la piedra que cae y la luna que no cae representan un solo y mismo fenómeno.”**
-> — Isaac Newton
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-08-28 -->
+> **“Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination.”**
+> — Albert Einstein
+> _field: physics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-29 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
