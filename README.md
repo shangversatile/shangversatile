@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination.”**
-> — Albert Einstein
-> _field: physics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-29 -->
+> **“Inferiority is always with us, and merciless scorn of it is the keynote of the military temper.”**
+> — William James
+> _field: psychology / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-08-30 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
