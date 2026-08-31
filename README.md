@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Inferiority is always with us, and merciless scorn of it is the keynote of the military temper.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-08-30 -->
+> **“Philosophieren ist: falsche Argumente zurückweisen.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-08-31 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
