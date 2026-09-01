@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Philosophieren ist: falsche Argumente zurückweisen.”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-08-31 -->
+> **“I think I can safely say that nobody understands quantum mechanics.”**
+> — Richard Feynman
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-09-01 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
