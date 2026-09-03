@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The life of man is of no greater importance to the universe than that of an oyster.”**
-> — David Hume
-> _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-09-02 -->
+> **“For remember that in general we don't use language according to strict rules — it hasn't been taught us by means of strict rules, either.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-09-03 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
