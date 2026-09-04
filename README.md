@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“For remember that in general we don't use language according to strict rules — it hasn't been taught us by means of strict rules, either.”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-09-03 -->
+> **“All thought must, directly or indirectly, by way of certain characters, relate ultimately to intuitions, and therefore, with us, to sensibility, because in no other way can an object be given to us.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-04 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
