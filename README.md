@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“All thought must, directly or indirectly, by way of certain characters, relate ultimately to intuitions, and therefore, with us, to sensibility, because in no other way can an object be given to us.”**
-> — Immanuel Kant
-> _field: philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-04 -->
+> **“The conclusion [of the essay 'Of the Protestant Succession'] shows me a Whig, but a very sceptical one.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-09-05 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
