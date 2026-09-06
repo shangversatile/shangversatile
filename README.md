@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The conclusion [of the essay 'Of the Protestant Succession'] shows me a Whig, but a very sceptical one.”**
-> — David Hume
-> _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-09-05 -->
+> **“Nature does not do anything in vain.”**
+> — Aristotle
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-06 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
