@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Nature does not do anything in vain.”**
-> — Aristotle
-> _field: philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-06 -->
+> **“Never stay up on the barren heights of cleverness, but come down into the green valleys of silliness.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-09-07 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
