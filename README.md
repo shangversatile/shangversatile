@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Truth and clarity are complementary.”**
-> — Niels Bohr
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-09-08 -->
+> **“The state is primarily an organization for killing foreigners.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-09-09 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
