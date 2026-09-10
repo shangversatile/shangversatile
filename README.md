@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The state is primarily an organization for killing foreigners.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-09-09 -->
+> **“A man will be imprisoned in a room with a door that's unlocked and opens inwards; as long as it does not occur to him to pull rather than push it.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-09-10 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
