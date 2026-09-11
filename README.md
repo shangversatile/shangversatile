@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A man will be imprisoned in a room with a door that's unlocked and opens inwards; as long as it does not occur to him to pull rather than push it.”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-09-10 -->
+> **“Le savant digne de ce nom, le géomètre surtout, éprouve en face de son œuvre la même impression que l'artiste ; sa jouissance est aussi grande et de même nature.”**
+> — Henri Poincare
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-11 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
