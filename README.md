@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“[W]e should say: 'Causes almost identical take almost the same time to produce almost the same effects.'”**
+> **“Le savant digne de ce nom, le géomètre surtout, éprouve en face de son œuvre la même impression que l'artiste ; sa jouissance est aussi grande et de même nature.”**
 > — Henri Poincare
 > _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-12 -->
+<!-- quote-updated: 2026-09-13 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
