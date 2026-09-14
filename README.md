@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Le savant digne de ce nom, le géomètre surtout, éprouve en face de son œuvre la même impression que l'artiste ; sa jouissance est aussi grande et de même nature.”**
-> — Henri Poincare
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-13 -->
+> **“One must care about a world one will not see.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-09-14 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
