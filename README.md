@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“One must care about a world one will not see.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-09-14 -->
+> **“I had too much stuff. My machines came from too far away.”**
+> — Richard Feynman
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-09-15 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
