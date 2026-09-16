@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“I had too much stuff. My machines came from too far away.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-09-15 -->
+> **“What's in a name? That which we call a rose,By any other name would smell as sweet.”**
+> — William Shakespeare
+> _field: literature · source: wikiquote_
+<!-- quote-updated: 2026-09-16 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
