@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“What's in a name? That which we call a rose,By any other name would smell as sweet.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-09-16 -->
+> **“It's only by thinking even more crazily than philosophers do that you can solve their problems.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-09-17 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
