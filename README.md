@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Everything we call real is made of things that cannot be regarded as real.”**
-> — Niels Bohr
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-09-18 -->
+> **“All our scientific and philosophic ideals are altars to unknown gods.”**
+> — William James
+> _field: psychology / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-19 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
