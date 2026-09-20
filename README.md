@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“All our scientific and philosophic ideals are altars to unknown gods.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-19 -->
+> **“Newton was at heart a Cartesian, using pure thought as Descartes intended, and using it to demolish the Cartesian dogma of vortices.”**
+> — Isaac Newton
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-09-20 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
