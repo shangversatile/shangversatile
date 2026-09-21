@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Newton was at heart a Cartesian, using pure thought as Descartes intended, and using it to demolish the Cartesian dogma of vortices.”**
-> — Isaac Newton
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-09-20 -->
+> **“Is it just I who cannot found a school, or can a philosopher never do so?”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-09-21 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
