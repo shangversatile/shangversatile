@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Is it just I who cannot found a school, or can a philosopher never do so?”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-09-21 -->
+> **“Oh, Diamond! Diamond! thou little knowest what mischief thou hast done!”**
+> — Isaac Newton
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-09-22 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
