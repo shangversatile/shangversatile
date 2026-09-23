@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Oh, Diamond! Diamond! thou little knowest what mischief thou hast done!”**
-> — Isaac Newton
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-09-22 -->
+> **“Science alone of all the subjects contains within itself the lesson of the danger of belief in the infallibility of the greatest teachers of the preceding generation.”**
+> — Richard Feynman
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-09-23 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
