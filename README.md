@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Reading the Socratic dialogues one has the feeling: what a frightful waste of time! What's the point of these arguments that prove nothing and clarify nothing?”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-09-24 -->
+> **“The tendency of our perceptions is to emphasise increasingly the objective elements in an impression, unless we have some special reason, as artists have, for doing the opposite.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-09-25 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
