@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The tendency of our perceptions is to emphasise increasingly the objective elements in an impression, unless we have some special reason, as artists have, for doing the opposite.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-09-25 -->
+> **“All natural capacities of a creature are destined to evolve completely to their natural end.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-26 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
