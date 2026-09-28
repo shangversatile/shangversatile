@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“A purely disembodied human emotion is a nonentity.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-27 -->
+> **“Scorn not the Sonnet. Critic, you have frowned,Mindless of its just honours; with this keyShakespeare unlocked his heart.”**
+> — William Shakespeare
+> _field: literature · source: wikiquote_
+<!-- quote-updated: 2026-09-28 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
