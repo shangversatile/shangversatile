@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Scorn not the Sonnet. Critic, you have frowned,Mindless of its just honours; with this keyShakespeare unlocked his heart.”**
-> — William Shakespeare
-> _field: literature · source: wikiquote_
-<!-- quote-updated: 2026-09-28 -->
+> **“Thought is only a flash between two long nights, but this flash is everything.”**
+> — Henri Poincare
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-09-29 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
