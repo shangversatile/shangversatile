@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Thought is only a flash between two long nights, but this flash is everything.”**
-> — Henri Poincare
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-09-29 -->
+> **“Galileo Galilei was the greatest writer in Italian literature: that's not me saying it, it's Italo Calvino.”**
+> — Galileo Galilei
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-09-30 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
