@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Galileo Galilei was the greatest writer in Italian literature: that's not me saying it, it's Italo Calvino.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-09-30 -->
+> **“If you act externally with men in conformity with your rank, you should recognize, by a more secret but truer thought, that you have nothing naturally superior to them.”**
+> — Blaise Pascal
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-01 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
