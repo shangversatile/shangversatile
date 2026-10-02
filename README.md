@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“If you act externally with men in conformity with your rank, you should recognize, by a more secret but truer thought, that you have nothing naturally superior to them.”**
-> — Blaise Pascal
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-01 -->
+> **“Now, as it happens, one of the very few references to any idea in the domain of sport to be found in the most orthodox type of contemporary philosophy is what Wittgenstein has to say about the concept of a game.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-10-02 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
