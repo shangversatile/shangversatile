@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Now, as it happens, one of the very few references to any idea in the domain of sport to be found in the most orthodox type of contemporary philosophy is what Wittgenstein has to say about the concept of a game.”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-10-02 -->
+> **“I believe the main task of the spirit is to free man from his ego.”**
+> — Albert Einstein
+> _field: physics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-03 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
