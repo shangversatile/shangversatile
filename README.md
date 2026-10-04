@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“I believe the main task of the spirit is to free man from his ego.”**
-> — Albert Einstein
-> _field: physics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-03 -->
+> **“The difficulty in philosophy is to say no more than we know.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-10-04 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
