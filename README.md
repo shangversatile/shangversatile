@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“The difficulty in philosophy is to say no more than we know.”**
-> — Ludwig Wittgenstein
-> _field: philosophy / language · source: wikiquote_
-<!-- quote-updated: 2026-10-04 -->
+> **“To apply oneself to great inventions, starting from the smallest beginnings, is no task for ordinary minds; to divine that wonderful arts lie hid behind trivial and childish things is a conception for superhuman talents.”**
+> — Galileo Galilei
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-10-05 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
