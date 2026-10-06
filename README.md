@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“To apply oneself to great inventions, starting from the smallest beginnings, is no task for ordinary minds; to divine that wonderful arts lie hid behind trivial and childish things is a conception for superhuman talents.”**
+> **“As a believing scientist [...] it is my deep conviction that it is our task to search nature and the universe, as Galileo Galilei, the father of modern science, did, for the footprints of God.”**
 > — Galileo Galilei
 > _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-10-05 -->
+<!-- quote-updated: 2026-10-06 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
