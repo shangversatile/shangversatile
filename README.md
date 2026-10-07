@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“As a believing scientist [...] it is my deep conviction that it is our task to search nature and the universe, as Galileo Galilei, the father of modern science, did, for the footprints of God.”**
+> **“See now the power of truth; the same experiment which at first glance seemed to show one thing, when more carefully examined, assures us of the contrary.”**
 > — Galileo Galilei
 > _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-10-06 -->
+<!-- quote-updated: 2026-10-07 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
