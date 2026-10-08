@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“See now the power of truth; the same experiment which at first glance seemed to show one thing, when more carefully examined, assures us of the contrary.”**
-> — Galileo Galilei
+> **“Nature and Nature's laws lay hid in night: God said, Let Newton be! — and all was light.”**
+> — Isaac Newton
 > _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-10-07 -->
+<!-- quote-updated: 2026-10-08 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
