@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“It is a great pity that human beings cannot find all of their satisfaction in scientific contemplativeness.”**
-> — Niels Bohr
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-10-09 -->
+> **“[R]ead Hume—a delightful history—barring the religious principles.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-10-10 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
