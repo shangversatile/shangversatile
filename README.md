@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Bertie says that I am muddle headed, but I say that he is simple minded.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-10-11 -->
+> **“The mind must not be forced; artificial and constrained manners fill it with foolish presumption, through unnatural elevation and vain and ridiculous inflation, instead of solid and vigorous nutriment.”**
+> — Blaise Pascal
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-12 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
