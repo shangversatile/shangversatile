@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Jiry, don't worry about anything. Go out and have a good time.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-10-13 -->
+> **“In the practical use of our intellect, forgetting is as important a function as recollecting.”**
+> — William James
+> _field: psychology / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-14 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
