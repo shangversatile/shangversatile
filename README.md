@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“In the practical use of our intellect, forgetting is as important a function as recollecting.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-14 -->
+> **“Later generations will regard Mengenlehre as a disease from which one has recovered.”**
+> — Henri Poincare
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-15 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
