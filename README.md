@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Later generations will regard Mengenlehre as a disease from which one has recovered.”**
+> **“Point set topology is a disease from which the human race will soon recover.”**
 > — Henri Poincare
 > _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-15 -->
+<!-- quote-updated: 2026-10-16 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
