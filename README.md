@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Just as science can live without certainty, religion can live without dogma, and the two can live together without conflict. This is the solution that Feynman recommends to his students.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-10-17 -->
+> **“Point set topology is a disease from which the human race will soon recover.”**
+> — Henri Poincare
+> _field: mathematics / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-18 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
