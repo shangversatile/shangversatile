@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Point set topology is a disease from which the human race will soon recover.”**
-> — Henri Poincare
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-18 -->
+> **“Art may make a suit of clothes; but nature must produce a man.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-10-19 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
