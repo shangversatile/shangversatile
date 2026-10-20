@@ -8,10 +8,10 @@
 </p>
 
 <!-- DAILY-QUOTE-START -->
-> **“Art may make a suit of clothes; but nature must produce a man.”**
-> — David Hume
-> _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-10-19 -->
+> **“Religions, which condemn the pleasures of sense, drive men to seek the pleasures of power. Throughout history power has been the vice of the ascetic.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-10-20 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
