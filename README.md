@@ -1,12 +1,5 @@
 # ☁️ Hi there, I'm Hank Zhang
 
-<p align="left">
-  <img
-    src="https://komarev.com/ghpvc/?username=shangversatile&label=Profile%20Views&color=FF69B4&style=flat"
-    alt="Profile views"
-  />
-</p>
-
 <!-- DAILY-QUOTE-START -->
 > **“Religions, which condemn the pleasures of sense, drive men to seek the pleasures of power. Throughout history power has been the vice of the ascetic.”**
 > — Bertrand Russell
