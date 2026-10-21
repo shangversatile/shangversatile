@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Religions, which condemn the pleasures of sense, drive men to seek the pleasures of power. Throughout history power has been the vice of the ascetic.”**
+> **“Righteousness cannot be born until self-righteousness is dead.”**
 > — Bertrand Russell
 > _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-10-20 -->
+<!-- quote-updated: 2026-10-21 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
