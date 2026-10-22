@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Righteousness cannot be born until self-righteousness is dead.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-10-21 -->
+> **“No, no, you are not thinking, you are just being logical.”**
+> — Niels Bohr
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-10-22 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
