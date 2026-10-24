@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“I have to understand the world, you see.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-10-23 -->
+> **“What cannot be imagined cannot even be talked about.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-10-24 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
