@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Truth and clarity are complementary.”**
-> — Niels Bohr
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-10-25 -->
+> **“I have always thought respectable people scoundrels, and I look anxiously at my face every morning for signs of my becoming a scoundrel.”**
+> — Bertrand Russell
+> _field: philosophy / logic · source: wikiquote_
+<!-- quote-updated: 2026-10-26 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
