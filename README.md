@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“I have always thought respectable people scoundrels, and I look anxiously at my face every morning for signs of my becoming a scoundrel.”**
-> — Bertrand Russell
-> _field: philosophy / logic · source: wikiquote_
-<!-- quote-updated: 2026-10-26 -->
+> **“Art may make a suit of clothes; but nature must produce a man.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-10-27 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
