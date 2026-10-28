@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Art may make a suit of clothes; but nature must produce a man.”**
-> — David Hume
-> _field: philosophy / causality · source: wikiquote_
-<!-- quote-updated: 2026-10-27 -->
+> **“My lectures are published and not published; they will be intelligible to those who heard them, and to none beside.”**
+> — Aristotle
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-10-28 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
