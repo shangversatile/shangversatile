@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“FEU. Dieu d'Abraham, Dieu d'Isaac, Dieu de Jacob, non des philosophes et savants. Certitude. Certitude. Sentiment. Joie. Paix.”**
-> — Blaise Pascal
-> _field: mathematics / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-10-31 -->
+> **“Uttering a word is like striking a note on the keyboard of the imagination.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-11-01 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
