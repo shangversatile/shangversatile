@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Names and attributes must be accommodated to the essence of things, and not the essence to the names, since things come first and names afterwards.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-11-02 -->
+> **“There is no more light in a genius than in any other honest man—but he has a particular kind of lens to concentrate this light into a burning point.”**
+> — Ludwig Wittgenstein
+> _field: philosophy / language · source: wikiquote_
+<!-- quote-updated: 2026-11-03 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
