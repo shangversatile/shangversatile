@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“See now the power of truth; the same experiment which at first glance seemed to show one thing, when more carefully examined, assures us of the contrary.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-11-05 -->
+> **“No, no, you are not thinking, you are just being logical.”**
+> — Niels Bohr
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-11-06 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
