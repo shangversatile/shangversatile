@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“It is impossible, by the way, when picking one example of anything, to avoid picking one which is atypical in some sense.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-11-07 -->
+> **“Measure what is measurable, and make measurable what is not so.”**
+> — Galileo Galilei
+> _field: physics / mathematics · source: wikiquote_
+<!-- quote-updated: 2026-11-08 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
