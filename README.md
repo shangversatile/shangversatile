@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Measure what is measurable, and make measurable what is not so.”**
-> — Galileo Galilei
-> _field: physics / mathematics · source: wikiquote_
-<!-- quote-updated: 2026-11-08 -->
+> **“Morals excite passions, and produce or prevent actions. Reason of itself is utterly impotent in this particular. The rules of morality, therefore, are not conclusions of our reason.”**
+> — David Hume
+> _field: philosophy / causality · source: wikiquote_
+<!-- quote-updated: 2026-11-10 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
