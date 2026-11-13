@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-11-12 -->
+> **“The philosophy of science is as useful to scientists as ornithology is to birds.”**
+> — Richard Feynman
+> _field: physics · source: wikiquote_
+<!-- quote-updated: 2026-11-13 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
