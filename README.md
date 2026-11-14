@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“The philosophy of science is as useful to scientists as ornithology is to birds.”**
-> — Richard Feynman
-> _field: physics · source: wikiquote_
-<!-- quote-updated: 2026-11-13 -->
+> **“Act as if what you do makes a difference. It does.”**
+> — William James
+> _field: psychology / philosophy · source: wikiquote_
+<!-- quote-updated: 2026-11-14 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
