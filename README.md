@@ -1,10 +1,10 @@
 # ☁️ Hi there, I'm Hank Zhang
 
 <!-- DAILY-QUOTE-START -->
-> **“Act as if what you do makes a difference. It does.”**
-> — William James
-> _field: psychology / philosophy · source: wikiquote_
-<!-- quote-updated: 2026-11-14 -->
+> **“Man's greatest concern is to know how he shall properly fill his place in the universe and correctly understand what he must be in order to be a man.”**
+> — Immanuel Kant
+> _field: philosophy · source: wikiquote_
+<!-- quote-updated: 2026-11-15 -->
 <!-- DAILY-QUOTE-END -->
 
 I am interested in how learning systems form, preserve, and revise internal representations through continual experience.
